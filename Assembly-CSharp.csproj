@@ -56,8 +56,15 @@
     <Analyzer Include="C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Q4Script.cs" />
+    <Compile Include="Assets\OptionsMenu.cs" />
     <Compile Include="Assets\MainMenu.cs" />
+    <Compile Include="Assets\Q3Script.cs" />
     <Compile Include="Assets\QuitScript.cs" />
+    <Compile Include="Assets\Q2Script.cs" />
+    <Compile Include="Assets\NextButton.cs" />
+    <Compile Include="Assets\textcontrol.cs" />
+    <Compile Include="Assets\Q1Script.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
