@@ -7,11 +7,14 @@ using UnityEngine.EventSystems;
 using UnityEngine.Events;
 public class Q3Script : MonoBehaviour , IPointerClickHandler
 {
+    static int id = 3;
     static List<string> defenitions=textcontrol.defenitions;
     public static string correctDef;
     public static int Q3Roll;
+    
     public UnityEvent onClick;
     public static string set = "no";
+    public static int randVal;
     public void OnPointerClick(PointerEventData pointerEventData){
         
         textcontrol.selectedAnswer=m_TextComponent.text;
@@ -23,28 +26,32 @@ public class Q3Script : MonoBehaviour , IPointerClickHandler
     // Start is called before the first frame update
     void Start()
     {
-
+        randVal= Random.Range(0,textcontrol.order.Count);
     }
 
     // Update is called once per frame
     void Update()
     {
-        if (set=="no"){
-            correctDef="no";
-            Q3Roll=Random.Range(0,defenitions.Count);
-            while(Q3Roll == Q1Script.Q1Roll | Q3Roll == Q2Script.Q2Roll | Q3Roll == Q4Script.Q4Roll){
-                Q3Roll=Random.Range(0,defenitions.Count);
-            }
-            set="yes";
+        while(randVal==Q1Script.randVal | randVal==Q2Script.randVal | randVal == Q4Script.randVal){
+            randVal=Random.Range(0,textcontrol.order.Count);
         }
-        if(Q3Roll > Q1Script.Q1Roll & Q3Roll > Q2Script.Q2Roll & Q3Roll > Q4Script.Q4Roll){
-            correctDef = "yes";
+        while(randVal==textcontrol.randomList[textcontrol.randQuestion]){
+            randVal=Random.Range(0,textcontrol.order.Count);
+        }
+        if(textcontrol.order[textcontrol.randomList[textcontrol.randQuestion]]==id){
+            correctDef="yes";
+        }
+        else{
+            correctDef="no";
         }
         m_TextComponent = GetComponent<TMP_Text>();
-        if(textcontrol.randQuestion>-1){
+        if(textcontrol.randomList[textcontrol.randQuestion]>-1){
             if(correctDef=="yes"){
-                m_TextComponent.text = defenitions [textcontrol.randQuestion];
+                m_TextComponent.text = defenitions [textcontrol.randomList[textcontrol.randQuestion]];
             }
-            else{m_TextComponent.text = defenitions [Q3Roll];}}    
+            else{if(randVal!= textcontrol.randomList[textcontrol.randQuestion]){
+                m_TextComponent.text = defenitions [randVal ];}
+                else{m_TextComponent.text = defenitions [randVal];}}   
+    }
     }
 }
