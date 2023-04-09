@@ -9,12 +9,21 @@ public class NextButton : MonoBehaviour , IPointerClickHandler
 {
     public UnityEvent onClick;
     public void OnPointerClick(PointerEventData pointerEventData){ 
-        textcontrol.randQuestion=-1;
-        Q1Script.set="no";
-        Q2Script.set="no";
-        Q3Script.set="no";
-        Q4Script.set="no";
-        onClick.Invoke();
+        if(textcontrol.randQuestion==textcontrol.randomList.Count-1){
+            //next thing to do.
+            Application.Quit();
+        }
+        else{
+        textcontrol.randQuestion+=1;
+        Q1Script.randVal= Random.Range(0,textcontrol.order.Count);
+        Q2Script.randVal= Random.Range(0,textcontrol.order.Count);
+        Q3Script.randVal= Random.Range(0,textcontrol.order.Count);
+        Q4Script.randVal= Random.Range(0,textcontrol.order.Count);
+        for(int i =0; i<textcontrol.questions.Count; i++){
+            int randInt  = Random.Range(1, 4);
+            textcontrol.order[i]=randInt;
+        }
+        }
     }
     // Start is called before the first frame update
     void Start()
