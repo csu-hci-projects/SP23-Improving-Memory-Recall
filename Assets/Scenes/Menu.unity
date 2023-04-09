@@ -1442,7 +1442,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   myFont: {fileID: 0}
-  bold: 0
+  bold: 1
   italicize: 0
   color: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &442677290
@@ -4583,7 +4583,7 @@ MonoBehaviour:
   myFont: {fileID: 0}
   bold: 0
   italicize: 0
-  color: {r: 0.21960786, g: 0.21960786, b: 0.21960786, a: 0}
+  color: {r: 1, g: 0, b: 0, a: 0}
 --- !u!114 &1376566271
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4881,7 +4881,7 @@ MonoBehaviour:
   myFont: {fileID: 0}
   bold: 0
   italicize: 0
-  color: {r: 0.3372549, g: 0.3372549, b: 0.3372549, a: 0}
+  color: {r: 0, g: 0, b: 1, a: 0}
 --- !u!114 &1403411338
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5466,7 +5466,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   myFont: {fileID: 0}
   bold: 0
-  italicize: 0
+  italicize: 1
   color: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &1500239879
 GameObject:
@@ -6333,7 +6333,7 @@ MonoBehaviour:
   myFont: {fileID: 0}
   bold: 0
   italicize: 0
-  color: {r: 0.3372549, g: 0.3372549, b: 0.3372549, a: 0}
+  color: {r: 1, g: 1, b: 0, a: 0}
 --- !u!114 &2048137069
 MonoBehaviour:
   m_ObjectHideFlags: 0
