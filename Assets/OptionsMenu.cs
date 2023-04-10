@@ -7,40 +7,24 @@ using UnityEngine.SceneManagement;
 public class OptionsMenu : MonoBehaviour
 {
 
-    public Font myFont;
-    public bool bold = false;
-    public bool italicize = false;
-    public Color color = new Color(0,0,0);
-
-    public void fontType(Font font) { myFont = font; }
-    public void fontItalicized() { italicize = !italicize; Debug.Log("ITALICIZE"); }
-    public void fontBold() { bold = !bold; Debug.Log("BOLD"); }
+    public void fontType(Font font) { LoadOptions.myFont = font; }
+    public void fontItalicized() { LoadOptions.italicize = true; Debug.Log("ITALICIZE"); }
+    public void fontBold() { LoadOptions.bold = true; Debug.Log("BOLD"); }
     public void fontColor(string colorName) 
     {
-        if (colorName == "Red") {
-            color = new Color(1, 0, 0);
+        if (colorName == "Red")
+        {
+            LoadOptions.colorChoice = Color.red;
             Debug.Log("RED");
         }
-        else if (colorName == "Blue") { 
-            color = new Color(0, 0, 1);
+        else if (colorName == "Blue") {
+            LoadOptions.colorChoice = Color.blue;
             Debug.Log("BLUE");
         }
         else if (colorName == "Yellow"){
-            color = new Color(0, 1, 1);
+            LoadOptions.colorChoice = Color.yellow;
             Debug.Log("YELLOW");
         }
-    }
-
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-
     }
 
 }
