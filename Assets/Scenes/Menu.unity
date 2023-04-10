@@ -1442,9 +1442,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   myFont: {fileID: 0}
-  bold: 1
+  bold: 0
   italicize: 0
-  color: {r: 0, g: 0, b: 0, a: 0}
+  colorChoice: {r: 0, g: 0, b: 0, a: 1}
 --- !u!1 &442677290
 GameObject:
   m_ObjectHideFlags: 0
@@ -2565,10 +2565,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e2cbbb6b7b56cf645adf7a8fcc35a4e6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  myFont: {fileID: 12800000, guid: bdb34367769aee94fb6fe8c57c56f93e, type: 3}
+  myFont: {fileID: 0}
   bold: 0
   italicize: 0
-  color: {r: 0, g: 0, b: 0, a: 0}
+  colorChoice: {r: 0, g: 0, b: 0, a: 1}
 --- !u!114 &709306233
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4583,7 +4583,7 @@ MonoBehaviour:
   myFont: {fileID: 0}
   bold: 0
   italicize: 0
-  color: {r: 1, g: 0, b: 0, a: 0}
+  colorChoice: {r: 0, g: 0, b: 0, a: 1}
 --- !u!114 &1376566271
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4881,7 +4881,7 @@ MonoBehaviour:
   myFont: {fileID: 0}
   bold: 0
   italicize: 0
-  color: {r: 0, g: 0, b: 1, a: 0}
+  colorChoice: {r: 0, g: 0, b: 0, a: 1}
 --- !u!114 &1403411338
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5466,8 +5466,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   myFont: {fileID: 0}
   bold: 0
-  italicize: 1
-  color: {r: 0, g: 0, b: 0, a: 0}
+  italicize: 0
+  colorChoice: {r: 0, g: 0, b: 0, a: 1}
 --- !u!1 &1500239879
 GameObject:
   m_ObjectHideFlags: 0
@@ -5521,10 +5521,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e2cbbb6b7b56cf645adf7a8fcc35a4e6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  myFont: {fileID: 12800000, guid: 67abb1c4bbafc7043bd604148ef6ddf4, type: 3}
+  myFont: {fileID: 0}
   bold: 0
   italicize: 0
-  color: {r: 0, g: 0, b: 0, a: 0}
+  colorChoice: {r: 0, g: 0, b: 0, a: 1}
 --- !u!114 &1500239882
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6032,10 +6032,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e2cbbb6b7b56cf645adf7a8fcc35a4e6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  myFont: {fileID: 12800000, guid: 39260b86a59a250428d161e616c44571, type: 3}
+  myFont: {fileID: 0}
   bold: 0
   italicize: 0
-  color: {r: 0, g: 0, b: 0, a: 0}
+  colorChoice: {r: 0, g: 0, b: 0, a: 1}
 --- !u!114 &1883217740
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6333,7 +6333,7 @@ MonoBehaviour:
   myFont: {fileID: 0}
   bold: 0
   italicize: 0
-  color: {r: 1, g: 1, b: 0, a: 0}
+  colorChoice: {r: 0, g: 0, b: 0, a: 1}
 --- !u!114 &2048137069
 MonoBehaviour:
   m_ObjectHideFlags: 0
