@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
+using System.Diagnostics;
 public class textcontrol : MonoBehaviour
 {
     private TMP_Text m_TextComponent;
@@ -12,10 +13,13 @@ public class textcontrol : MonoBehaviour
     public static int randQuestion=0;
     public static string selectedAnswer;
     public static string choiceselected="no";
+    public static int numCorrect=0;
+    public static long totalTime=0;
+    public static Stopwatch stopwatch=new Stopwatch();
     // Start is called before the first frame update
     void Start()
     {
-        
+        stopwatch.Start();
         int n = randomList.Count;  
         while (n > 1) {  
             n--;  
@@ -38,15 +42,6 @@ public class textcontrol : MonoBehaviour
         m_TextComponent = GetComponent<TMP_Text>();
         m_TextComponent.text = questions [randomList[randQuestion]];
         
-        if (choiceselected=="yes"){
-            choiceselected="no";
-            if (defenitions[randQuestion]==selectedAnswer){
-                Debug.Log("Correct");
-            }
-            else{
-                Debug.Log("Nop");
-            }
-        }
         
     }
 }
