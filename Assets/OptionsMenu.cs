@@ -7,11 +7,11 @@ using UnityEngine.SceneManagement;
 public class OptionsMenu : MonoBehaviour
 {
 
-    public void fontType(Font font) { LoadOptions.myFont = font; }
+    public void fontType(Font font) { LoadOptions.myFont = font; Debug.Log(font); }
     public void fontItalicized() { LoadOptions.italicize = true; Debug.Log("ITALICIZE"); }
     public void fontBold() { LoadOptions.bold = true; Debug.Log("BOLD"); }
-    public void fontSize(int fontSize) { LoadOptions.textFontSize = fontSize; }
-    public void optimized() { LoadOptions.optimalSettings = true; }
+    public void fontSize(int fontSize) { LoadOptions.textFontSize = fontSize; Debug.Log(fontSize); }
+    public void optimized() { LoadOptions.optimalSettings = true; Debug.Log("OPTIMAL SETTINGS"); }
 
     public void fontColor(string colorName) 
     {
@@ -35,14 +35,17 @@ public class OptionsMenu : MonoBehaviour
         if(colorName == "Yellow")
         {
             LoadOptions.backgroundColor = Color.yellow;
+            Debug.Log("YELLOW BACKGROUND");
         }
         else if(colorName == "Red")
         {
             LoadOptions.backgroundColor = Color.red;
+            Debug.Log("RED BACKGROUND");
         }
         else if(colorName == "Grey")
         {
             LoadOptions.backgroundColor = Color.grey;
+            Debug.Log("GREY BACKGROUND");
         }
     }
 
