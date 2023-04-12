@@ -6,6 +6,8 @@ using UnityEngine.SceneManagement;
 using UnityEngine.EventSystems;
 using UnityEngine.Events;
 using System.Diagnostics;
+using UnityEditor;
+using System.IO;
 public class Q4Script : MonoBehaviour , IPointerClickHandler
 {
     static int id = 4;
@@ -31,6 +33,11 @@ public class Q4Script : MonoBehaviour , IPointerClickHandler
         }
         
         if(textcontrol.randQuestion==textcontrol.randomList.Count-1){
+             string path = "Assets/Resources/testResults.txt";
+        //Write some text to the test.txt file
+        StreamWriter writer = new StreamWriter(path, true);
+        writer.WriteLine(textcontrol.numCorrect+","+textcontrol.totalTime);
+        writer.Close();
             //next thing to do.
             //Accuracy = textcontrol.numCorrect / number of defs.
             //Time taken = textcontrol.totalTime
