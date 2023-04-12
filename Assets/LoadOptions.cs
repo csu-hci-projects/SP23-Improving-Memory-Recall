@@ -52,13 +52,13 @@ public class LoadOptions : MonoBehaviour
 
     public void setTextFont()
     {
-        if(myFont == null)
+        if (myFont == null) { }
+            //DO NOT REMOVE, making it so font won't change if Font button isn't pressed. 
+        else
         {
-            text.font = optimalFont;
+            text.font = myFont;
         }
-        else{
-        text.font = myFont;
-        }
+        
         usrSettings.Add(text.font.ToString());
     }
 
