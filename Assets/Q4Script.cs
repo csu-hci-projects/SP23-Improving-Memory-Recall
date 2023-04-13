@@ -36,7 +36,7 @@ public class Q4Script : MonoBehaviour , IPointerClickHandler
              string path = "Assets/Resources/testResults.txt";
         //Write some text to the test.txt file
         StreamWriter writer = new StreamWriter(path, true);
-        writer.WriteLine(textcontrol.numCorrect+","+textcontrol.totalTime);
+        writer.WriteLine("Number Correct: "+textcontrol.numCorrect+", Total Elapsed Time (Ms): "+textcontrol.totalTime+", User Settings Tested: ["+LoadOptions.usrSettings[0]+","+LoadOptions.usrSettings[1]+","+LoadOptions.usrSettings[2]+","+LoadOptions.usrSettings[3]+","+LoadOptions.usrSettings[4]+"]");
         writer.Close();
             //next thing to do.
             //Accuracy = textcontrol.numCorrect / number of defs.
