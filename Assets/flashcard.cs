@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.Threading;
@@ -20,45 +21,52 @@ public class flashcard : MonoBehaviour
     public RectTransform r;
     public Text cardText;
 
-    public Question[] ques = new Question[20];
+    public Question[] ques = new Question[48];
+    public int[] startpoint = { 0, 12, 24, 36 };
 
     public float flipTime = 0.15f;
     private int faceSide = 0; //0=front, 1=back
     private int isShrinking = -1; // -1 = get smaller, 1 = get bigger
     private bool isFlipping = false;
-    private int cardNum = 0;
+    public int cardNum = 0;
+
     private float distancePerTime;
     private float timeCount = 0;
+
+    public void SetCardNum(int i)
+    {
+        cardNum = startpoint[i];
+    }
 
     // Start is called before the first frame update
     void Start()
     {
-        //Set 1
-        ques[0] = new Question("Word1", "Def1");
-        ques[1] = new Question("Word2", "Def2");
-        ques[2] = new Question("Word3", "Def3");
-        ques[3] = new Question("Word4", "Def4");
-        ques[4] = new Question("Word5", "Def5");
-        ques[5] = new Question("Word6", "Def6");
-        ques[6] = new Question("Word7", "Def7");
-        ques[7] = new Question("Word8", "Def8");
-        ques[8] = new Question("Word9", "Def9");
-        ques[9] = new Question("Word10", "Def10");
-        ques[10] = new Question("Word11", "Def11");
-        ques[11] = new Question("Word12", "Def12");
-        //Set 2
-        ques[12] = new Question("Word13", "Def13");
-        ques[13] = new Question("Word14", "Def14");
-        ques[14] = new Question("Word15", "Def15");
-        ques[15] = new Question("Word16", "Def16");
-        ques[16] = new Question("Word17", "Def17");
-        ques[17] = new Question("Word18", "Def18");
-        ques[18] = new Question("Word19", "Def19");
-        ques[19] = new Question("Word20", "Def20");
-        ques[20] = new Question("Word21", "Def21");
-        ques[21] = new Question("Word22", "Def22");
-        ques[22] = new Question("Word23", "Def23");
-        ques[23] = new Question("Word24", "Def24");
+        //Set 1 - Zachary's
+        ques[0] = new Question("Eutectic", "Homogeneous solid mixture of at least two types of atoms or molecules that form a superlattice (usually a mix of alloys).");
+        ques[1] = new Question("Alkaline", "An aqueous solution with a pH greater than 7.");
+        ques[2] = new Question("Valence", "Number of electrons needed to fill the outermost electron shell.");
+        ques[3] = new Question("Titration", "Process of adding a known volume and concentration of one solution to another to determine the concentration of the second solution.");
+        ques[4] = new Question("Positron", "The antimatter counterpart to an electron, which has a charge of +1.");
+        ques[5] = new Question("Alkoxide", "An organic functional group formed when a hydrogen atom is removed from the hydroxyl group of an alcohol when it is reacted with a metal.");
+        ques[6] = new Question("Bitumen", "Natural mixture of polycyclic aromatic hydrocarbons (PAHs).");
+        ques[7] = new Question("Seaborgium", "Radioactive transition metal with element symbol Sg and atomic number 106.");
+        ques[8] = new Question("Calorimeter", "Instrument designed to measure heat flow of a chemical reaction or physical change.");
+        ques[9] = new Question("Thiol", "An organic sulfur compound consisting of an alkyl or aryl group and a sulfur-hydrogen group; R-SH.");
+        ques[10] = new Question("Ketone", "Compound containing a carbonyl functional group (C=O) between two groups of atoms");
+        ques[11] = new Question("Miscible", "Soluble or able to be mixed to form a solution, typically applied to fluids.");
+        //Set 2 - Jay's
+        ques[12] = new Question("Sycophant", "A person who acts obsequiously toward someone important in order to gain advantage.");
+        ques[13] = new Question("Obfuscate", "Render obscure, unclear, or unintelligible.");
+        ques[14] = new Question("Mawkish", "Sentimental in a feeble or sickly way.");
+        ques[15] = new Question("Scintillating", "Sparkling or shining brightly.");
+        ques[16] = new Question("Garrulous", "Excessively or pointlessly talkative.");
+        ques[17] = new Question("Syncretism", "The amalgamation(combination) or attempted amalgamation of different religions, cultures, or schools of thought.");
+        ques[18] = new Question("Parochial", "Having a limited or narrow outlook or scope; provincial.");
+        ques[19] = new Question("Sardonic", "Mocking or cynical in a humorous or sarcastic way.");
+        ques[20] = new Question("Quixotic", "Overly idealistic or unrealistic; impractical.");
+        ques[21] = new Question("Puerile", "Childish, silly, or trivial.");
+        ques[22] = new Question("Profligate", "Recklessly extravagant or wasteful in the use of resources.");
+        ques[23] = new Question("Pleonasm", "The use of more words than are necessary to convey meaning.");
         //Set 3
         ques[24] = new Question("Word25", "Def25");
         ques[25] = new Question("Word26", "Def26");
@@ -85,10 +93,11 @@ public class flashcard : MonoBehaviour
         ques[45] = new Question("Word46", "Def46");
         ques[46] = new Question("Word47", "Def47");
         ques[47] = new Question("Word48", "Def48");
-       
+
+
         distancePerTime = r.localScale.x / flipTime;
-        cardNum = 0;
         cardText.text = ques[cardNum].question;
+
     }
 
     // Update is called once per frame
@@ -126,7 +135,11 @@ public class flashcard : MonoBehaviour
     {
         faceSide = 0;
         cardNum++;
-        if (cardNum >= ques.Length || cardNum/12==1 || cardNum/24==1 || cardNum/36==1)
+        if(cardNum >= ques.Length)
+        {
+            cardNum = 0;
+        }
+        else if ((float)cardNum / (float)12 == 1.0 || (float)cardNum / (float)24 == 1.0 || (float)cardNum / (float)36 == 1.0)
         {
             SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
         }
