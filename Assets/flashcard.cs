@@ -18,6 +18,7 @@ public class Question
 }
 public class flashcard : MonoBehaviour
 {
+    public static int[] order = new int[11];
     public RectTransform r;
     public Text cardText;
 
