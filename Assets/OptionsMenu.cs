@@ -12,6 +12,7 @@ public class OptionsMenu : MonoBehaviour
     public void fontBold() { LoadOptions.bold = true; Debug.Log("BOLD"); }
     public void fontSize(int fontSize) { LoadOptions.textFontSize = fontSize; Debug.Log(fontSize); }
     public void optimized() { LoadOptions.optimalSettings = true; Debug.Log("OPTIMAL SETTINGS"); }
+    public void setMusicType(string music) { LoadOptions.MusicType = music; }
 
     public void fontColor(string colorName) 
     {

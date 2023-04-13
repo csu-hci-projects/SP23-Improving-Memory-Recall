@@ -12,12 +12,13 @@ public class LoadOptions : MonoBehaviour
     public static Color colorChoice;
     public static Color backgroundColor;
     public static int textFontSize;
+    public static string MusicType;
 
     public static float numOptions=5;
     public static bool optimalSettings;
     public static List<string> MixedSettings = new List<string>();
     public static List<string> usrSettings = new List<string>();
-    public static List<string> optSettings = new List<string>(){"Color.red", "Font/NimbusRomNo9L-Reg", "Fontstyle.Normal","60","Color.yellow"};
+    public static List<string> optSettings = new List<string>(){"Color.red", "Font/NimbusRomNo9L-Reg", "Fontstyle.Normal","60","Color.yellow", "Classical"};
     public static Font optimalFont = Resources.Load<Font>("Font/NimbusRomNo9L-Reg");
     public static bool optimalBold = false;
     public static bool optimalItalic = false;
@@ -41,6 +42,7 @@ public class LoadOptions : MonoBehaviour
             setTextStyle();
             setTextSize();
             setBackgroundColor();
+            setMusicType();
         }
         MixedSettings=usrSettings;
         for(int i =0; i<Mathf.Ceil(numOptions/2); i++){
@@ -118,5 +120,10 @@ public class LoadOptions : MonoBehaviour
             background.color = backgroundColor;
         }
         usrSettings.Add(background.color.ToString());
+    }
+
+    public void setMusicType()
+    {
+        usrSettings.Add(MusicType);
     }
 }
