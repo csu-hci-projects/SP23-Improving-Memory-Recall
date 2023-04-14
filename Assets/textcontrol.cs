@@ -6,8 +6,8 @@ using System.Diagnostics;
 public class textcontrol : MonoBehaviour
 {
     private TMP_Text m_TextComponent;
-    public static List<string> questions = new List<string>() {"Question 1: ", "Question 2: ", "Question 3: ", "Question 4: ", "Question 5: ","Question 6: ", "Question 7: ", "Question 8: ", "Question 9: ", "Question 10: ", "Question 11: ", "Question 12: "};
-    public static List<string> defenitions = new List<string>() {"D1","D2", "D3","D4","D5", "D6","D7","D8", "D9","D10","D11", "D12"};
+    public static List<string> questions = new List<string>(){"","","","","","","","","","","",""};
+    public static List<string> defenitions = new List<string>(){"","","","","","","","","","","",""};
     public static List<int> order = new List<int>() {0,0,0,0,0,0,0,0,0,0,0,0};
     public static List<int> randomList = new List<int>(){0,1,2,3,4,5,6,7,8,9,10,11};
     public static int randQuestion=0;
@@ -15,10 +15,31 @@ public class textcontrol : MonoBehaviour
     public static string choiceselected="no";
     public static int numCorrect=0;
     public static long totalTime=0;
+     public static int shouldExit=0;
+     public static int index=0;
     public static Stopwatch stopwatch=new Stopwatch();
     // Start is called before the first frame update
     void Start()
     {
+        
+        if(invisScript.intarr[textcontrol.index]==1){
+            flashcard.queCurrent=flashcard.ques;
+        }
+        else if(invisScript.intarr[textcontrol.index]==2){
+            flashcard.queCurrent=flashcard.ques2;
+        }
+        else if(invisScript.intarr[textcontrol.index]==3){
+            flashcard.queCurrent=flashcard.ques3;
+        }
+        else if(invisScript.intarr[textcontrol.index]==4){
+            flashcard.queCurrent=flashcard.ques;
+        }
+        for(int j =0; j<12; j++){
+            questions[j]=flashcard.queCurrent[j].question;
+        }
+        for(int k =0; k<12; k++){
+            defenitions[k]=flashcard.queCurrent[k].correctAnswer;
+        }
         stopwatch.Start();
         int n = randomList.Count;  
         while (n > 1) {  
