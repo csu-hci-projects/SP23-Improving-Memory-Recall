@@ -24,16 +24,22 @@ public class LoadOptions : MonoBehaviour
     public static bool optimalItalic = false;
     public static Color optimalBackgroundColor = Color.yellow;
     public static Color optimalFontcolor = Color.red;
-
+    public static Color usrFontcolor;
+    public static Font usrFont;
+    public static FontStyle usrStyle;
+    public static int usrFontSize;
+    public static Color usrBackgroundColor;
+    public static string usrMusic;
+    public static int[] arr1 = new int[6];
     // Start is called before the first frame update
     void Start()
     {
+        if(textcontrol.index==0){
+        optimalFont=text.font;
+        }
         if (optimalSettings)
         {
-            text.fontSize = 60;
-            text.color = optimalFontcolor;
-            text.fontStyle = FontStyle.Normal;
-            background.color = optimalBackgroundColor;
+            
         }
         else
         {
@@ -44,11 +50,58 @@ public class LoadOptions : MonoBehaviour
             setBackgroundColor();
             setMusicType();
         }
-        MixedSettings=usrSettings;
+
         for(int i =0; i<Mathf.Ceil(numOptions/2); i++){
-            int k =Random.Range(0,4);
-            MixedSettings[i]=optSettings[i];
+        int k =Random.Range(0,5);
+        arr1[i]=k;
         }
+         if(textcontrol.index==2){
+            Debug.Log("made it optimal");
+            text.fontSize = 60;
+            text.color = optimalFontcolor;
+            text.fontStyle = FontStyle.Normal;
+            background.color = optimalBackgroundColor;
+            text.font=optimalFont;
+            setMusicType2("Classical");
+        }
+        else if(textcontrol.index==5){
+            Debug.Log("made it mixed");
+            text.fontSize = 60;
+            text.color = optimalFontcolor;
+            text.fontStyle = FontStyle.Normal;
+            background.color = optimalBackgroundColor;
+            text.font=optimalFont;
+      
+            setMusicType2("Classical");
+            for(int j=0; j<2;j++){
+                
+                if(arr1[j]==0){
+                    text.color=(usrFontcolor);
+                    
+                }
+                else if(arr1[j]==1){
+                    text.font=(usrFont);
+         
+                }
+                else if(arr1[j]==2){
+                    text.fontStyle=(usrStyle);
+         
+                }
+                else if(arr1[j]==3){
+                   text.fontSize =(usrFontSize);
+     
+                }
+                else if(arr1[j]==4){
+                   background.color =(usrBackgroundColor);
+
+                }
+                else if(arr1[j]==5){
+                    setMusicType2(usrMusic);
+                }
+            }
+            
+        }
+       
         
     }
 
@@ -62,6 +115,7 @@ public class LoadOptions : MonoBehaviour
         }
         
         usrSettings.Add(text.font.ToString());
+        usrFont=text.font;
     }
 
     public void setTextColor()
@@ -75,6 +129,7 @@ public class LoadOptions : MonoBehaviour
             text.color = colorChoice;
         }
         usrSettings.Add(text.color.ToString());
+        usrFontcolor=text.color;
     }
     public void setTextStyle()
     {
@@ -93,6 +148,7 @@ public class LoadOptions : MonoBehaviour
             text.fontStyle = FontStyle.Bold;
         }
         usrSettings.Add(text.fontStyle.ToString());
+        usrStyle=text.fontStyle;
 
     }
 
@@ -107,6 +163,7 @@ public class LoadOptions : MonoBehaviour
             text.fontSize = textFontSize;
         }
         usrSettings.Add(text.fontSize.ToString());
+        usrFontSize=text.fontSize;
     }
 
     public void setBackgroundColor()
@@ -120,10 +177,23 @@ public class LoadOptions : MonoBehaviour
             background.color = backgroundColor;
         }
         usrSettings.Add(background.color.ToString());
+        usrBackgroundColor=background.color;
     }
 
     public void setMusicType()
     {
         usrSettings.Add(MusicType);
+        usrMusic=MusicType;
     }
+       
+   public void setMusicType2(string music)
+    {
+        usrSettings[5]=(music);
+
+    }
+
+
+
+   
+    
 }
