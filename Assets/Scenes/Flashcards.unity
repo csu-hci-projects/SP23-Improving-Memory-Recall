@@ -342,8 +342,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_text: On the following screen, you will be shown a set of flashcards. Try to
-    remember each word and definition before moving onto the next word. Some definitions
-    may not be tested.
+    remember each word and definition before the next word appears.
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -1387,7 +1386,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   r: {fileID: 1714737500}
   cardText: {fileID: 553350548}
+  startpoint: 000000000c0000001800000024000000
   flipTime: 0.1
+  cardNum: 0
 --- !u!114 &1714737502
 MonoBehaviour:
   m_ObjectHideFlags: 0
