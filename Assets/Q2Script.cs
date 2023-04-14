@@ -16,7 +16,6 @@ public class Q2Script : MonoBehaviour , IPointerClickHandler
     public static string set = "no";
     public static int Q2Roll;
     public UnityEvent onClick;
-    
     public static int randVal;
     public void OnPointerClick(PointerEventData pointerEventData){
         textcontrol.stopwatch.Stop();
@@ -38,6 +37,32 @@ public class Q2Script : MonoBehaviour , IPointerClickHandler
         StreamWriter writer = new StreamWriter(path, true);
        writer.WriteLine("Number Correct: "+textcontrol.numCorrect+", Total Elapsed Time (Ms): "+textcontrol.totalTime+", User Settings Tested: ["+LoadOptions.usrSettings[0]+","+LoadOptions.usrSettings[1]+","+LoadOptions.usrSettings[2]+","+LoadOptions.usrSettings[3]+","+LoadOptions.usrSettings[4]+"]");
         writer.Close();
+        if(textcontrol.shouldExit==6){
+            Application.Quit();
+            //todo results page
+        }
+       else{
+            textcontrol.shouldExit++;
+        }
+        if(flashcard.first==0){
+            textcontrol.index++;
+            textcontrol.randQuestion=0;
+            flashcard.first++;
+            SceneManager.LoadScene("Flashcards");
+            
+        }
+        else if(flashcard.first==1){
+            textcontrol.index++;
+            textcontrol.randQuestion=0;
+            flashcard.first++;
+            SceneManager.LoadScene("Game");
+        }
+        else if(flashcard.first==2){
+            textcontrol.index++;
+            textcontrol.randQuestion=0;
+            flashcard.first--;
+            SceneManager.LoadScene("Flashcards");
+        }
             //next thing to do.
             //Accuracy = textcontrol.numCorrect / number of defs.
             //Time taken = textcontrol.totalTime
@@ -83,11 +108,11 @@ public class Q2Script : MonoBehaviour , IPointerClickHandler
         m_TextComponent = GetComponent<TMP_Text>();
         if(textcontrol.randomList[textcontrol.randQuestion]>-1){
             if(correctDef=="yes"){
-                m_TextComponent.text = defenitions [textcontrol.randomList[textcontrol.randQuestion]];
+                m_TextComponent.text = "2. "+defenitions [textcontrol.randomList[textcontrol.randQuestion]];
             }
             else{if(randVal != textcontrol.randomList[textcontrol.randQuestion]){
-                m_TextComponent.text = defenitions [randVal];}
-                else{m_TextComponent.text = defenitions [randVal];}}   
+                m_TextComponent.text = "2. "+defenitions [randVal];}
+                else{m_TextComponent.text = "2. "+defenitions [randVal];}}   
     }     
     }
 }
