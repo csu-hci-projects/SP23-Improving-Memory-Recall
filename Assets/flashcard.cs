@@ -37,6 +37,10 @@ public class flashcard : MonoBehaviour
 
     private float distancePerTime;
     private float timeCount = 0;
+    public float startTime = 0f;
+    public float currentTime = 0f;
+    public float durationWord = 10f; // 10 seconds def, 5 seconds word
+    public float durationDef = 5f;
 
     public void SetCardNum(int i)
     {
@@ -45,9 +49,9 @@ public class flashcard : MonoBehaviour
 
     // Start is called before the first frame update
     void Start()
-    {   
-           
-        if(invisScript.intarr[textcontrol.index]==1){
+    {
+        startTime = Time.time; // Store the current time as the start time   
+        if (invisScript.intarr[textcontrol.index]==1){
             queCurrent=ques;
         }
         else if(invisScript.intarr[textcontrol.index]==2){
@@ -121,6 +125,20 @@ public class flashcard : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        currentTime = Time.time - startTime;
+        if (currentTime >= durationDef && faceSide == 0)
+        {
+            FlipCard();
+            startTime = Time.time;
+            Debug.Log("Flipping to Back");
+        }
+        else if (currentTime >= durationWord && faceSide == 1)
+        {
+            NextCard();
+            startTime = Time.time;
+            Debug.Log("Switching to next card");
+        }
+
         if (isFlipping)
         {
             Vector3 v = r.localScale;

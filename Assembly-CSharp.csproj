@@ -62,6 +62,7 @@
     <Compile Include="Assets\Q4Script.cs" />
     <Compile Include="Assets\MainMenu.cs" />
     <Compile Include="Assets\QuitScript.cs" />
+    <Compile Include="Assets\ResultsScript.cs" />
     <Compile Include="Assets\Q1Script.cs" />
     <Compile Include="Assets\invisScript.cs" />
     <Compile Include="Assets\flashcard.cs" />
