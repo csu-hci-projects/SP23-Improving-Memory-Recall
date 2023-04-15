@@ -39,13 +39,6 @@ public class Q4Script : MonoBehaviour , IPointerClickHandler
         writer.WriteLine("Number Correct: "+textcontrol.numCorrect+", Total Elapsed Time (Ms): "+textcontrol.totalTime+", User Settings Tested: ["+LoadOptions.usrSettings[0]+","+LoadOptions.usrSettings[1]+","+LoadOptions.usrSettings[2]+","+LoadOptions.usrSettings[3]+","+LoadOptions.usrSettings[4]+"]"+"Wordset "+invisScript.intarr[textcontrol.index]);
         writer.Close();
         textcontrol.numCorrect=0;
-        if(textcontrol.shouldExit==5){
-
-            SceneManager.LoadScene("Results");
-        }
-        else{
-            textcontrol.shouldExit++;
-        }
         if(flashcard.first==0){
             flashcard.first++;
             textcontrol.index++;
@@ -90,8 +83,7 @@ public class Q4Script : MonoBehaviour , IPointerClickHandler
     // Start is called before the first frame update
     void Start()
     {
-           
-           randVal= Random.Range(0,textcontrol.order.Count);
+        randVal = Random.Range(0,textcontrol.order.Count);
     }
 
     // Update is called once per frame

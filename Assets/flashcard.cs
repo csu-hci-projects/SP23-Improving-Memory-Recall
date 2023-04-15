@@ -50,6 +50,11 @@ public class flashcard : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        if (textcontrol.shouldExit == 7)
+        {
+            SceneManager.LoadScene("Results");
+        }
+
         startTime = Time.time; // Store the current time as the start time   
         if (invisScript.intarr[textcontrol.index]==1){
             queCurrent=ques;
@@ -130,13 +135,11 @@ public class flashcard : MonoBehaviour
         {
             FlipCard();
             startTime = Time.time;
-            Debug.Log("Flipping to Back");
         }
         else if (currentTime >= durationWord && faceSide == 1)
         {
             NextCard();
             startTime = Time.time;
-            Debug.Log("Switching to next card");
         }
 
         if (isFlipping)

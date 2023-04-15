@@ -35,16 +35,10 @@ public class Q1Script : MonoBehaviour , IPointerClickHandler
         string path = "Assets/Resources/testResults.txt";
         //Write some text to the test.txt file
         StreamWriter writer = new StreamWriter(path, true);
-       writer.WriteLine("Number Correct: "+textcontrol.numCorrect+", Total Elapsed Time (Ms): "+textcontrol.totalTime+", User Settings Tested: ["+LoadOptions.usrSettings[0]+","+LoadOptions.usrSettings[1]+","+LoadOptions.usrSettings[2]+","+LoadOptions.usrSettings[3]+","+LoadOptions.usrSettings[4]+"]"+"Wordset "+invisScript.intarr[textcontrol.index]);
+        writer.WriteLine("Number Correct: "+textcontrol.numCorrect+", Total Elapsed Time (Ms): "+textcontrol.totalTime+", User Settings Tested: ["+LoadOptions.usrSettings[0]+","+LoadOptions.usrSettings[1]+","+LoadOptions.usrSettings[2]+","+LoadOptions.usrSettings[3]+","+LoadOptions.usrSettings[4]+"]"+"Wordset "+invisScript.intarr[textcontrol.index]);
         writer.Close();
         textcontrol.numCorrect=0;
-        if(textcontrol.shouldExit==5){
- 
-            SceneManager.LoadScene("Results");
-        }
-      else{
-            textcontrol.shouldExit++;
-        }
+
         if(flashcard.first==0){
             textcontrol.index++;
             textcontrol.randQuestion=0;
@@ -88,9 +82,18 @@ public class Q1Script : MonoBehaviour , IPointerClickHandler
     // Start is called before the first frame update
     void Start()
     {
+        if (textcontrol.shouldExit == 7)
+        {
+            SceneManager.LoadScene("Results");
+        }
+        else
+        {
+            textcontrol.shouldExit++;
+            UnityEngine.Debug.Log("Q1 shouldExit++:" + textcontrol.shouldExit);
+        }
         Stopwatch stopwatch = new Stopwatch();
-           stopwatch.Start();
-            randVal= Random.Range(0,textcontrol.order.Count);
+        stopwatch.Start();
+        randVal= Random.Range(0,textcontrol.order.Count);
     }
 
     // Update is called once per frame

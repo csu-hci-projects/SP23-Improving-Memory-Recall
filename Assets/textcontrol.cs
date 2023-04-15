@@ -15,8 +15,8 @@ public class textcontrol : MonoBehaviour
     public static string choiceselected="no";
     public static int numCorrect=0;
     public static long totalTime=0;
-     public static int shouldExit=0;
-     public static int index=0;
+    public static int shouldExit=0;
+    public static int index=0;
     public static Stopwatch stopwatch=new Stopwatch();
     // Start is called before the first frame update
     void Start()

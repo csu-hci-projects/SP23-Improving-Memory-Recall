@@ -63,6 +63,7 @@
     <Compile Include="Assets\MainMenu.cs" />
     <Compile Include="Assets\QuitScript.cs" />
     <Compile Include="Assets\ResultsScript.cs" />
+    <Compile Include="Assets\Helpmenu7.cs" />
     <Compile Include="Assets\Q1Script.cs" />
     <Compile Include="Assets\invisScript.cs" />
     <Compile Include="Assets\flashcard.cs" />

@@ -16,7 +16,6 @@ public class ResultsScript : MonoBehaviour
         string path = "Assets/Resources/testResults.txt";
         string content = File.ReadAllText(path);
         textBox.text = content;
-
     }
 
     // Update is called once per frame
