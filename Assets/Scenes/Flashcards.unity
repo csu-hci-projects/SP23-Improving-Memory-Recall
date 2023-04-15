@@ -1163,8 +1163,8 @@ MonoBehaviour:
   cardNum: 0
   startTime: 0
   currentTime: 0
-  durationWord: 10
-  durationDef: 5
+  durationWord: 1
+  durationDef: 1
 --- !u!114 &1714737502
 MonoBehaviour:
   m_ObjectHideFlags: 0
