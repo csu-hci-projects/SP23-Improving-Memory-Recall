@@ -58,42 +58,52 @@ public class LoadOptions : MonoBehaviour
          if(textcontrol.index==2){
             Debug.Log("made it optimal");
             text.fontSize = 60;
+            usrSettings[3]=text.fontSize.ToString();
             text.color = optimalFontcolor;
+            usrSettings[0]=text.color.ToString();
             text.fontStyle = FontStyle.Normal;
+            usrSettings[2] = text.fontStyle.ToString();
             background.color = optimalBackgroundColor;
+            usrSettings[4] = background.color.ToString();
             text.font=optimalFont;
+            usrSettings[1]=text.font.ToString();
             setMusicType2("Classical");
         }
         else if(textcontrol.index==5){
             Debug.Log("made it mixed");
             text.fontSize = 60;
+            usrSettings[3]=text.fontSize.ToString();
             text.color = optimalFontcolor;
+            usrSettings[0]=text.color.ToString();
             text.fontStyle = FontStyle.Normal;
+            usrSettings[2] = text.fontStyle.ToString();
             background.color = optimalBackgroundColor;
+            usrSettings[4] = background.color.ToString();
             text.font=optimalFont;
-      
+            usrSettings[1]=text.font.ToString();
             setMusicType2("Classical");
             for(int j=0; j<2;j++){
                 
                 if(arr1[j]==0){
                     text.color=(usrFontcolor);
+                    usrSettings[0]=text.color.ToString();
                     
                 }
                 else if(arr1[j]==1){
                     text.font=(usrFont);
-         
+                    usrSettings[1]=text.font.ToString();
                 }
                 else if(arr1[j]==2){
                     text.fontStyle=(usrStyle);
-         
+                    usrSettings[2] = text.fontStyle.ToString();
                 }
                 else if(arr1[j]==3){
                    text.fontSize =(usrFontSize);
-     
+                    usrSettings[3]=text.fontSize.ToString();
                 }
                 else if(arr1[j]==4){
                    background.color =(usrBackgroundColor);
-
+                    usrSettings[4] = background.color.ToString();
                 }
                 else if(arr1[j]==5){
                     setMusicType2(usrMusic);

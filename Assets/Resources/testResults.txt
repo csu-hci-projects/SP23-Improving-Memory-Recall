@@ -1,7 +1,7 @@
-Number Correct: 2, Total Elapsed Time (Ms): 32017, User Settings Tested: [RGBA(1.000, 0.000, 0.000, 1.000),NimbusRomNo9L-Reg (UnityEngine.Font),Normal,60,RGBA(1.000, 0.922, 0.016, 1.000)]Wordset 1
-Number Correct: 5, Total Elapsed Time (Ms): 111051, User Settings Tested: [RGBA(1.000, 0.000, 0.000, 1.000),NimbusRomNo9L-Reg (UnityEngine.Font),Normal,60,RGBA(1.000, 0.922, 0.016, 1.000)]Wordset 2
-Number Correct: 10, Total Elapsed Time (Ms): 229424, User Settings Tested: [RGBA(1.000, 0.000, 0.000, 1.000),NimbusRomNo9L-Reg (UnityEngine.Font),Normal,60,RGBA(1.000, 0.922, 0.016, 1.000)]Wordset 1
-Number Correct: 14, Total Elapsed Time (Ms): 380144, User Settings Tested: [RGBA(1.000, 0.000, 0.000, 1.000),NimbusRomNo9L-Reg (UnityEngine.Font),Normal,60,RGBA(1.000, 0.922, 0.016, 1.000)]Wordset 3
-Number Correct: 20, Total Elapsed Time (Ms): 537496, User Settings Tested: [RGBA(1.000, 0.000, 0.000, 1.000),NimbusRomNo9L-Reg (UnityEngine.Font),Normal,60,RGBA(1.000, 0.922, 0.016, 1.000)]Wordset 2
-Number Correct: 25, Total Elapsed Time (Ms): 753467, User Settings Tested: [RGBA(1.000, 0.000, 0.000, 1.000),NimbusRomNo9L-Reg (UnityEngine.Font),Normal,60,RGBA(1.000, 0.922, 0.016, 1.000)]Wordset 4
-Number Correct: 32, Total Elapsed Time (Ms): 999044, User Settings Tested: [RGBA(1.000, 0.000, 0.000, 1.000),NimbusRomNo9L-Reg (UnityEngine.Font),Normal,60,RGBA(1.000, 0.922, 0.016, 1.000)]Wordset 3
+Number Correct: 4, Total Elapsed Time (Ms): 28573, User Settings Tested: [RGBA(0.000, 0.000, 1.000, 1.000),Qarmic sans Abridged (UnityEngine.Font),BoldAndItalic,85,RGBA(0.500, 0.500, 0.500, 1.000)]Wordset 1
+Number Correct: 6, Total Elapsed Time (Ms): 99124, User Settings Tested: [RGBA(1.000, 0.000, 0.000, 1.000),NimbusRomNo9L-Reg (UnityEngine.Font),Normal,60,RGBA(1.000, 0.922, 0.016, 1.000)]Wordset 2
+Number Correct: 7, Total Elapsed Time (Ms): 195502, User Settings Tested: [RGBA(1.000, 0.000, 0.000, 1.000),NimbusRomNo9L-Reg (UnityEngine.Font),Normal,60,RGBA(1.000, 0.922, 0.016, 1.000)]Wordset 1
+Number Correct: 4, Total Elapsed Time (Ms): 329677, User Settings Tested: [RGBA(1.000, 0.000, 0.000, 1.000),NimbusRomNo9L-Reg (UnityEngine.Font),Normal,60,RGBA(0.500, 0.500, 0.500, 1.000)]Wordset 3
+Number Correct: 4, Total Elapsed Time (Ms): 494201, User Settings Tested: [RGBA(1.000, 0.000, 0.000, 1.000),NimbusRomNo9L-Reg (UnityEngine.Font),Normal,60,RGBA(0.500, 0.500, 0.500, 1.000)]Wordset 2
+Number Correct: 5, Total Elapsed Time (Ms): 705259, User Settings Tested: [RGBA(1.000, 0.000, 0.000, 1.000),NimbusRomNo9L-Reg (UnityEngine.Font),Normal,60,RGBA(0.500, 0.500, 0.500, 1.000)]Wordset 4
+Number Correct: 1, Total Elapsed Time (Ms): 994367, User Settings Tested: [RGBA(1.000, 0.000, 0.000, 1.000),NimbusRomNo9L-Reg (UnityEngine.Font),Normal,60,RGBA(0.500, 0.500, 0.500, 1.000)]Wordset 3
