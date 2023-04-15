@@ -1,15 +1,7 @@
-Number Correct: 5, Total Elapsed Time (Ms): 20818, User Settings Tested: [RGBA(0.000, 0.000, 1.000, 1.000),Qarmic sans Abridged (UnityEngine.Font),BoldAndItalic,85,RGBA(0.500, 0.500, 0.500, 1.000)]Wordset 1
-Number Correct: 7, Total Elapsed Time (Ms): 76135, User Settings Tested: [RGBA(0.000, 0.000, 1.000, 1.000),Qarmic sans Abridged (UnityEngine.Font),BoldAndItalic,85,RGBA(0.500, 0.500, 0.500, 1.000)]Wordset 2
-Number Correct: 10, Total Elapsed Time (Ms): 164903, User Settings Tested: [RGBA(0.000, 0.000, 1.000, 1.000),Qarmic sans Abridged (UnityEngine.Font),BoldAndItalic,85,RGBA(0.500, 0.500, 0.500, 1.000)]Wordset 1
-Number Correct: 6, Total Elapsed Time (Ms): 21682, User Settings Tested: [RGBA(0.000, 0.000, 1.000, 1.000),Qarmic sans Abridged (UnityEngine.Font),BoldAndItalic,85,RGBA(0.500, 0.500, 0.500, 1.000)]Wordset 1
-Number Correct: 6, Total Elapsed Time (Ms): 18825, User Settings Tested: [RGBA(0.000, 0.000, 1.000, 1.000),Qarmic sans Abridged (UnityEngine.Font),BoldAndItalic,85,RGBA(0.500, 0.500, 0.500, 1.000)]Wordset 1
-Number Correct: 13, Total Elapsed Time (Ms): 70093, User Settings Tested: [RGBA(0.000, 0.000, 1.000, 1.000),Qarmic sans Abridged (UnityEngine.Font),BoldAndItalic,85,RGBA(0.500, 0.500, 0.500, 1.000)]Wordset 2
-Number Correct: 13, Total Elapsed Time (Ms): 147325, User Settings Tested: [RGBA(0.000, 0.000, 1.000, 1.000),Qarmic sans Abridged (UnityEngine.Font),BoldAndItalic,85,RGBA(0.500, 0.500, 0.500, 1.000)]Wordset 1
-Number Correct: 2, Total Elapsed Time (Ms): 23246, User Settings Tested: [RGBA(1.000, 0.000, 0.000, 1.000),NimbusRomNo9L-Reg (UnityEngine.Font),Normal,60,RGBA(1.000, 0.922, 0.016, 1.000)]Wordset 1
-Number Correct: 5, Total Elapsed Time (Ms): 80608, User Settings Tested: [RGBA(1.000, 0.000, 0.000, 1.000),NimbusRomNo9L-Reg (UnityEngine.Font),Normal,60,RGBA(1.000, 0.922, 0.016, 1.000)]Wordset 2
-Number Correct: 8, Total Elapsed Time (Ms): 170058, User Settings Tested: [RGBA(1.000, 0.000, 0.000, 1.000),NimbusRomNo9L-Reg (UnityEngine.Font),Normal,60,RGBA(1.000, 0.922, 0.016, 1.000)]Wordset 1
-Number Correct: 1, Total Elapsed Time (Ms): 36041, User Settings Tested: [RGBA(0.000, 0.000, 1.000, 1.000),Qarmic sans Abridged (UnityEngine.Font),BoldAndItalic,85,RGBA(0.500, 0.500, 0.500, 1.000)]Wordset 1
-Number Correct: 6, Total Elapsed Time (Ms): 105200, User Settings Tested: [RGBA(0.000, 0.000, 1.000, 1.000),Qarmic sans Abridged (UnityEngine.Font),BoldAndItalic,85,RGBA(0.500, 0.500, 0.500, 1.000)]Wordset 2
-Number Correct: 9, Total Elapsed Time (Ms): 203342, User Settings Tested: [RGBA(0.000, 0.000, 1.000, 1.000),Qarmic sans Abridged (UnityEngine.Font),BoldAndItalic,85,RGBA(0.500, 0.500, 0.500, 1.000)]Wordset 1
-Number Correct: 15, Total Elapsed Time (Ms): 334489, User Settings Tested: [RGBA(0.000, 0.000, 1.000, 1.000),Qarmic sans Abridged (UnityEngine.Font),BoldAndItalic,85,RGBA(0.500, 0.500, 0.500, 1.000)]Wordset 3
-Number Correct: 22, Total Elapsed Time (Ms): 491591, User Settings Tested: [RGBA(0.000, 0.000, 1.000, 1.000),Qarmic sans Abridged (UnityEngine.Font),BoldAndItalic,85,RGBA(0.500, 0.500, 0.500, 1.000)]Wordset 2
+Number Correct: 2, Total Elapsed Time (Ms): 32017, User Settings Tested: [RGBA(1.000, 0.000, 0.000, 1.000),NimbusRomNo9L-Reg (UnityEngine.Font),Normal,60,RGBA(1.000, 0.922, 0.016, 1.000)]Wordset 1
+Number Correct: 5, Total Elapsed Time (Ms): 111051, User Settings Tested: [RGBA(1.000, 0.000, 0.000, 1.000),NimbusRomNo9L-Reg (UnityEngine.Font),Normal,60,RGBA(1.000, 0.922, 0.016, 1.000)]Wordset 2
+Number Correct: 10, Total Elapsed Time (Ms): 229424, User Settings Tested: [RGBA(1.000, 0.000, 0.000, 1.000),NimbusRomNo9L-Reg (UnityEngine.Font),Normal,60,RGBA(1.000, 0.922, 0.016, 1.000)]Wordset 1
+Number Correct: 14, Total Elapsed Time (Ms): 380144, User Settings Tested: [RGBA(1.000, 0.000, 0.000, 1.000),NimbusRomNo9L-Reg (UnityEngine.Font),Normal,60,RGBA(1.000, 0.922, 0.016, 1.000)]Wordset 3
+Number Correct: 20, Total Elapsed Time (Ms): 537496, User Settings Tested: [RGBA(1.000, 0.000, 0.000, 1.000),NimbusRomNo9L-Reg (UnityEngine.Font),Normal,60,RGBA(1.000, 0.922, 0.016, 1.000)]Wordset 2
+Number Correct: 25, Total Elapsed Time (Ms): 753467, User Settings Tested: [RGBA(1.000, 0.000, 0.000, 1.000),NimbusRomNo9L-Reg (UnityEngine.Font),Normal,60,RGBA(1.000, 0.922, 0.016, 1.000)]Wordset 4
+Number Correct: 32, Total Elapsed Time (Ms): 999044, User Settings Tested: [RGBA(1.000, 0.000, 0.000, 1.000),NimbusRomNo9L-Reg (UnityEngine.Font),Normal,60,RGBA(1.000, 0.922, 0.016, 1.000)]Wordset 3
