@@ -36,7 +36,7 @@ public class Q4Script : MonoBehaviour , IPointerClickHandler
              string path = "Assets/Resources/testResults.txt";
         //Write some text to the test.txt file
         StreamWriter writer = new StreamWriter(path, true);
-        writer.WriteLine("Number Correct: "+textcontrol.numCorrect+", Total Elapsed Time (Ms): "+textcontrol.totalTime+", User Settings Tested: ["+LoadOptions.usrSettings[0]+","+LoadOptions.usrSettings[1]+","+LoadOptions.usrSettings[2]+","+LoadOptions.usrSettings[3]+","+LoadOptions.usrSettings[4]+"]"+"Wordset "+invisScript.intarr[textcontrol.index]);
+        writer.WriteLine("Number Correct: "+textcontrol.numCorrect+", Total Elapsed Time (Ms): "+textcontrol.totalTime+", User Settings Tested: ["+LoadOptions.usrSettings[0]+","+LoadOptions.usrSettings[1]+","+LoadOptions.usrSettings[2]+","+LoadOptions.usrSettings[3]+","+LoadOptions.usrSettings[4]+","+LoadOptions.usrSettings[5]+"]"+"Wordset "+invisScript.intarr[textcontrol.index]);
         writer.Close();
         textcontrol.numCorrect=0;
         if(flashcard.first==0){
