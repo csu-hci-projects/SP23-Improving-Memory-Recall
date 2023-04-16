@@ -45,7 +45,7 @@ NOTE: Everyone in this group contributed towards research of this project.
 
 ### Zachary Fuller
 - Testing scene.
-  -Everything related to or pertaining to the testing part of the prototype.
+  - Everything related to or pertaining to the testing part of the prototype.
 - Mixed settings algorithim.
 - Proper run sequence of prototype.
 - Implementation of settings onto flashcards:
