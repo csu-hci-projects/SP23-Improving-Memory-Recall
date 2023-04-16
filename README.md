@@ -50,6 +50,17 @@ NOTE: Everyone in this group contributed towards research of this project.
 Jake worked on the team's research paper. He managed all the citations, ensuring proper referencing and formatting were adhered to. Jake also helped fix the issues regarding the Related Works section, aligning it with the research objectives, and collaborated with Zach to create the Procedure section. He also helped with bug fixes, provided ideas when needed, and worked with the testing UI. He's also in the beginning stages of ideating how the experiment will be conducted. 
 
 ### Hunter Hoden
+- Added functionality to the following parts of the prototype:
+  - Font Type selection.
+  - Font Size selection.
+  - Font Color selection.
+  - Background Color selection.
+- Complete VR Overhall:
+  - Menus.
+  - Scenes.
+  - Cameras.
+- A vast array of bugfixes due to VR port.
+- Assisted in implementing the base code for loading and setting user options.
 
 ### Jay Snellings
 
