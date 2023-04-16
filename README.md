@@ -32,3 +32,29 @@ https://youtu.be/RlbWard5Kow
 
 ## Initial Test Survey
 https://docs.google.com/forms/d/e/1FAIpQLSdkFUMu80FYO-s8Bf0UadQsE05TnrlH827XOuMJVdF9Macyyw/viewform?usp=sf_link
+
+# Checkpoint 2
+
+## Meeting Times
+
+At least once a week, if not twice, we held group meetings. This usually occurred on Mondays and Thursdays. We used this time, much like the sprint method, to fix issues, provide fresh ideas, add new concepts to Jira, etc.
+
+## Contributions
+
+NOTE: Everyone in this group contributed towards research of this project.
+
+### Zachary Fuller
+
+### Jake Ritz
+
+Jake took charge of the team's research paper. He managed all the citations, ensuring proper referencing and formatting were adhered to. Jake also helped fix the issues regarding the Related Works section, aligning it with the research objectives, and collaborated with Zach to create the Procedure section. He also helped with big fixes, providing ideas when needed, and worked with the testing UI.
+
+### Hunter Hoden
+
+### Jay Snellings
+
+## Video Link 
+
+## Overleaf Link 
+
+https://www.overleaf.com/read/fhfwzfvydjhy
