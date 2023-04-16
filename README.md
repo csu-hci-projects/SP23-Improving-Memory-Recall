@@ -27,7 +27,7 @@ The Related Works Section was finished by Hunter. He also added buttons for font
 ### Jay Snellings
 Jay created all of the menus from scratch, Added functionality to buttons so the menus actually flow and eventually change scenes, contributed to the procurement of research articles to use in the paper
 
-## Video Link 
+## Video Link - CP1
 https://youtu.be/RlbWard5Kow
 
 ## Initial Test Survey
@@ -95,7 +95,7 @@ NOTE: Everyone in this group contributed towards research of this project. Many 
 - Implementation of results screen.
 - Percentage of work: 26.125%
 
-## Video Link 
+## Video Link - CP2
 
 https://youtu.be/7M_qrd-4Myk
 
