@@ -22,7 +22,7 @@
     <DebugType>full</DebugType>
     <Optimize>false</Optimize>
     <OutputPath>Temp\Bin\Debug\</OutputPath>
-    <DefineConstants>UNITY_2021_3_19;UNITY_2021_3;UNITY_2021;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_2017_1_OR_NEWER;UNITY_2017_2_OR_NEWER;UNITY_2017_3_OR_NEWER;UNITY_2017_4_OR_NEWER;UNITY_2018_1_OR_NEWER;UNITY_2018_2_OR_NEWER;UNITY_2018_3_OR_NEWER;UNITY_2018_4_OR_NEWER;UNITY_2019_1_OR_NEWER;UNITY_2019_2_OR_NEWER;UNITY_2019_3_OR_NEWER;UNITY_2019_4_OR_NEWER;UNITY_2020_1_OR_NEWER;UNITY_2020_2_OR_NEWER;UNITY_2020_3_OR_NEWER;UNITY_2021_1_OR_NEWER;UNITY_2021_2_OR_NEWER;UNITY_2021_3_OR_NEWER;PLATFORM_ARCH_64;UNITY_64;UNITY_INCLUDE_TESTS;ENABLE_AR;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_EVENT_QUEUE;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_TEXTURE_STREAMING;ENABLE_VIRTUALTEXTURING;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_VR;ENABLE_WEBCAM;ENABLE_UNITYWEBREQUEST;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_COLLAB_SOFTLOCKS;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_SERVICES_USE_WEBREQUEST;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_HUB_LICENSE;ENABLE_WEBSOCKET_CLIENT;ENABLE_DIRECTOR_AUDIO;ENABLE_DIRECTOR_TEXTURE;ENABLE_MANAGED_JOBS;ENABLE_MANAGED_TRANSFORM_JOBS;ENABLE_MANAGED_ANIMATION_JOBS;ENABLE_MANAGED_AUDIO_JOBS;ENABLE_MANAGED_UNITYTLS;INCLUDE_DYNAMIC_GI;ENABLE_SCRIPTING_GC_WBARRIERS;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;ENABLE_VIDEO;ENABLE_ACCELERATOR_CLIENT_DEBUGGING;PLATFORM_STANDALONE;TEXTCORE_1_0_OR_NEWER;PLATFORM_STANDALONE_WIN;UNITY_STANDALONE_WIN;UNITY_STANDALONE;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_NVIDIA;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_UNITY_GAME_SERVICES_ANALYTICS_SUPPORT;ENABLE_OUT_OF_PROCESS_CRASH_HANDLER;ENABLE_CLUSTER_SYNC;ENABLE_CLUSTERINPUT;PLATFORM_UPDATES_TIME_OUTSIDE_OF_PLAYER_LOOP;GFXDEVICE_WAITFOREVENT_MESSAGEPUMP;ENABLE_WEBSOCKET_HOST;ENABLE_MONO;NET_4_6;NET_UNITY_4_8;ENABLE_PROFILER;DEBUG;TRACE;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;ENABLE_UNITY_COLLECTIONS_CHECKS;ENABLE_BURST_AOT;UNITY_TEAM_LICENSE;ENABLE_CUSTOM_RENDER_TEXTURE;ENABLE_DIRECTOR;ENABLE_LOCALIZATION;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_TILEMAP;ENABLE_TIMELINE;ENABLE_LEGACY_INPUT_MANAGER;TEXTCORE_FONT_ENGINE_1_5_OR_NEWER;SERVICES_SDK_CORE_ENABLED;CSHARP_7_OR_LATER;CSHARP_7_3_OR_NEWER</DefineConstants>
+    <DefineConstants>UNITY_2021_3_19;UNITY_2021_3;UNITY_2021;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_2017_1_OR_NEWER;UNITY_2017_2_OR_NEWER;UNITY_2017_3_OR_NEWER;UNITY_2017_4_OR_NEWER;UNITY_2018_1_OR_NEWER;UNITY_2018_2_OR_NEWER;UNITY_2018_3_OR_NEWER;UNITY_2018_4_OR_NEWER;UNITY_2019_1_OR_NEWER;UNITY_2019_2_OR_NEWER;UNITY_2019_3_OR_NEWER;UNITY_2019_4_OR_NEWER;UNITY_2020_1_OR_NEWER;UNITY_2020_2_OR_NEWER;UNITY_2020_3_OR_NEWER;UNITY_2021_1_OR_NEWER;UNITY_2021_2_OR_NEWER;UNITY_2021_3_OR_NEWER;PLATFORM_ARCH_64;UNITY_64;UNITY_INCLUDE_TESTS;ENABLE_AR;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_EVENT_QUEUE;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_TEXTURE_STREAMING;ENABLE_VIRTUALTEXTURING;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_VR;ENABLE_WEBCAM;ENABLE_UNITYWEBREQUEST;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_COLLAB_SOFTLOCKS;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_SERVICES_USE_WEBREQUEST;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_HUB_LICENSE;ENABLE_WEBSOCKET_CLIENT;ENABLE_DIRECTOR_AUDIO;ENABLE_DIRECTOR_TEXTURE;ENABLE_MANAGED_JOBS;ENABLE_MANAGED_TRANSFORM_JOBS;ENABLE_MANAGED_ANIMATION_JOBS;ENABLE_MANAGED_AUDIO_JOBS;ENABLE_MANAGED_UNITYTLS;INCLUDE_DYNAMIC_GI;ENABLE_SCRIPTING_GC_WBARRIERS;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;ENABLE_VIDEO;ENABLE_ACCELERATOR_CLIENT_DEBUGGING;PLATFORM_STANDALONE;TEXTCORE_1_0_OR_NEWER;PLATFORM_STANDALONE_WIN;UNITY_STANDALONE_WIN;UNITY_STANDALONE;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_NVIDIA;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_UNITY_GAME_SERVICES_ANALYTICS_SUPPORT;ENABLE_OUT_OF_PROCESS_CRASH_HANDLER;ENABLE_CLUSTER_SYNC;ENABLE_CLUSTERINPUT;PLATFORM_UPDATES_TIME_OUTSIDE_OF_PLAYER_LOOP;GFXDEVICE_WAITFOREVENT_MESSAGEPUMP;ENABLE_WEBSOCKET_HOST;ENABLE_MONO;NET_4_6;NET_UNITY_4_8;ENABLE_PROFILER;DEBUG;TRACE;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;ENABLE_UNITY_COLLECTIONS_CHECKS;ENABLE_BURST_AOT;UNITY_TEAM_LICENSE;ENABLE_CUSTOM_RENDER_TEXTURE;ENABLE_DIRECTOR;ENABLE_LOCALIZATION;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_TILEMAP;ENABLE_TIMELINE;ENABLE_INPUT_SYSTEM;ENABLE_LEGACY_INPUT_MANAGER;TEXTCORE_FONT_ENGINE_1_5_OR_NEWER;SERVICES_SDK_CORE_ENABLED;CSHARP_7_OR_LATER;CSHARP_7_3_OR_NEWER</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
     <NoWarn>0169</NoWarn>
@@ -57,37 +57,17 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Library\PackageCache\com.unity.purchasing@4.5.2\Editor\GooglePlayProductCatalogExporter.cs" />
-    <Compile Include="Library\PackageCache\com.unity.purchasing@4.5.2\Editor\Analytics\Events\GenericEditorEditFieldEvent.cs" />
-    <Compile Include="Library\PackageCache\com.unity.purchasing@4.5.2\Editor\ServiceProjectSettings\UI\Views\IMGUIContainerPopupAdapter.cs" />
-    <Compile Include="Library\PackageCache\com.unity.purchasing@4.5.2\Editor\ServiceProjectSettings\UI\Views\PlatformsAndStoresDisabledServiceSettingsBlock.cs" />
     <Compile Include="Library\PackageCache\com.unity.purchasing@4.5.2\Editor\ServiceProjectSettings\UI\Views\Obfuscator\BaseObfuscatorSection.cs" />
-    <Compile Include="Library\PackageCache\com.unity.purchasing@4.5.2\Editor\Importer.cs" />
     <Compile Include="Library\PackageCache\com.unity.purchasing@4.5.2\Editor\Analytics\PackageKey\NonGameServicesAnalyticsPackageKeyHolder.cs" />
-    <Compile Include="Library\PackageCache\com.unity.purchasing@4.5.2\Editor\ServiceProjectSettings\Entity\Consts\PurchasingUrls.cs" />
-    <Compile Include="Library\PackageCache\com.unity.purchasing@4.5.2\Editor\WebRequest\CloudProjectWebRequest.cs" />
-    <Compile Include="Library\PackageCache\com.unity.purchasing@4.5.2\Editor\Analytics\Helpers\GenericEditorFieldEditEventSenderHelpers.cs" />
-    <Compile Include="Library\PackageCache\com.unity.purchasing@4.5.2\Editor\ServiceProjectSettings\PurchasingServiceEnabler.cs" />
     <Compile Include="Library\PackageCache\com.unity.purchasing@4.5.2\Editor\UdpSynchronizationApi.cs" />
-    <Compile Include="Library\PackageCache\com.unity.purchasing@4.5.2\Editor\Analytics\PackageKey\GameServicesAnalyticsPackageKeyHolder.cs" />
     <Compile Include="Library\PackageCache\com.unity.purchasing@4.5.2\Editor\ServiceProjectSettings\Entity\Consts\UIResourceUtils.cs" />
-    <Compile Include="Library\PackageCache\com.unity.purchasing@4.5.2\Editor\MenuItems\IapListenerMenu.cs" />
     <Compile Include="Library\PackageCache\com.unity.purchasing@4.5.2\Editor\ApplePriceTiers.cs" />
     <Compile Include="Library\PackageCache\com.unity.purchasing@4.5.2\Editor\WindowsRuntimeWorkaround.cs.template.cs" />
     <Compile Include="Library\PackageCache\com.unity.purchasing@4.5.2\Editor\ServiceProjectSettings\PurchasingSettingsProvider.cs" />
     <Compile Include="Library\PackageCache\com.unity.purchasing@4.5.2\Editor\Analytics\Events\GenericEditorClickCheckboxEvent.cs" />
-    <Compile Include="Library\PackageCache\com.unity.purchasing@4.5.2\Editor\Analytics\Events\IEditorAnalyticsEvent.cs" />
-    <Compile Include="Library\PackageCache\com.unity.purchasing@4.5.2\Editor\ServiceProjectSettings\PurchasingSettingsKeywords.cs" />
-    <Compile Include="Library\PackageCache\com.unity.purchasing@4.5.2\Editor\Analytics\Entity\EventSources.cs" />
-    <Compile Include="Library\PackageCache\com.unity.purchasing@4.5.2\Editor\Analytics\Events\GenericEditorGameServiceEvent.cs" />
     <Compile Include="Library\PackageCache\com.unity.purchasing@4.5.2\Editor\ServiceProjectSettings\UI\Views\Obfuscator\AbstractObfuscatorSection.cs" />
-    <Compile Include="Library\PackageCache\com.unity.purchasing@4.5.2\Editor\ServiceProjectSettings\Service\Networking\GoogleConfigurationWebRequests.cs" />
-    <Compile Include="Library\PackageCache\com.unity.purchasing@4.5.2\Editor\ProductCatalogEditor.cs" />
     <Compile Include="Library\PackageCache\com.unity.purchasing@4.5.2\Editor\AppStoreExtensionMethods.cs" />
     <Compile Include="Library\PackageCache\com.unity.purchasing@4.5.2\Editor\Analytics\Events\GenericEditorClickMenuItemEvent.cs" />
-    <Compile Include="Library\PackageCache\com.unity.purchasing@4.5.2\Editor\ServiceProjectSettings\Service\Networking\UnityWebRequestExtensions.cs" />
-    <Compile Include="Library\PackageCache\com.unity.purchasing@4.5.2\Editor\Obfuscation\UI\ObfuscatorWindow.cs" />
-    <Compile Include="Library\PackageCache\com.unity.purchasing@4.5.2\Editor\RichEditorWindow.cs" />
-    <Compile Include="Library\PackageCache\com.unity.purchasing@4.5.2\Editor\Analytics\Entity\EventSourceMenuItems.cs" />
     <Compile Include="Library\PackageCache\com.unity.purchasing@4.5.2\Editor\ServiceProjectSettings\UI\Views\IapCatalogServiceSettingsBlock.cs" />
     <Compile Include="Library\PackageCache\com.unity.purchasing@4.5.2\Editor\Analytics\Entity\EventTools.cs" />
     <Compile Include="Library\PackageCache\com.unity.purchasing@4.5.2\Editor\ServiceProjectSettings\Presenter\BasePurchasingState.cs" />
@@ -95,36 +75,19 @@
     <Compile Include="Library\PackageCache\com.unity.purchasing@4.5.2\Editor\ServiceProjectSettings\Entity\GoogleConfigurationData.cs" />
     <Compile Include="Library\PackageCache\com.unity.purchasing@4.5.2\Editor\Analytics\Events\GenericEditorSelectDropdownEvent.cs" />
     <Compile Include="Library\PackageCache\com.unity.purchasing@4.5.2\Editor\Analytics\Helpers\GenericEditorClickCheckboxEventSenderHelpers.cs" />
-    <Compile Include="Library\PackageCache\com.unity.purchasing@4.5.2\Editor\ServiceProjectSettings\UI\Views\AppleConfigurationSettingsBlock.cs" />
     <Compile Include="Library\PackageCache\com.unity.purchasing@4.5.2\Editor\ServiceProjectSettings\Presenter\SettingsUIUtils.cs" />
-    <Compile Include="Library\PackageCache\com.unity.purchasing@4.5.2\Editor\Analytics\Helpers\GenericEditorButtonClickEventSenderHelpers.cs" />
     <Compile Include="Library\PackageCache\com.unity.purchasing@4.5.2\Editor\ServiceProjectSettings\Service\Networking\NetworkingUtils.cs" />
     <Compile Include="Library\PackageCache\com.unity.purchasing@4.5.2\Editor\Analytics\Entity\EventActions.cs" />
-    <Compile Include="Library\PackageCache\com.unity.purchasing@4.5.2\Editor\WebRequest\Interface\IWebRequestInternal.cs" />
-    <Compile Include="Library\PackageCache\com.unity.purchasing@4.5.2\Editor\UnityPurchasingEditor.cs" />
     <Compile Include="Library\PackageCache\com.unity.purchasing@4.5.2\Editor\Analytics\Entity\EventUINames.cs" />
     <Compile Include="Library\PackageCache\com.unity.purchasing@4.5.2\Editor\Analytics\Helpers\GenericEditorDropdownSelectEventSenderHelpers.cs" />
     <Compile Include="Library\PackageCache\com.unity.purchasing@4.5.2\Editor\ServiceProjectSettings\Service\GoogleConfigService.cs" />
-    <Compile Include="Library\PackageCache\com.unity.purchasing@4.5.2\Editor\Analytics\PurchasingServiceAnalyticsSender.cs" />
-    <Compile Include="Library\PackageCache\com.unity.purchasing@4.5.2\Editor\ServiceProjectSettings\UI\Views\PlatformsAndStoresEnabledServiceSettingsBlock.cs" />
     <Compile Include="Library\PackageCache\com.unity.purchasing@4.5.2\Editor\Obfuscation\Entity\TangleFileConsts.cs" />
-    <Compile Include="Library\PackageCache\com.unity.purchasing@4.5.2\Editor\Analytics\Entity\GameServices\GameServicesEventActions.cs" />
-    <Compile Include="Library\PackageCache\com.unity.purchasing@4.5.2\Editor\ServiceProjectSettings\Entity\Consts\SettingsUIConstants.cs" />
-    <Compile Include="Library\PackageCache\com.unity.purchasing@4.5.2\Editor\ServiceProjectSettings\UI\Views\Obfuscator\AppleObfuscatorSection.cs" />
-    <Compile Include="Library\PackageCache\com.unity.purchasing@4.5.2\Editor\IAPButtonEditor.cs" />
     <Compile Include="Library\PackageCache\com.unity.purchasing@4.5.2\Editor\AssemblyInfo.cs" />
     <Compile Include="Library\PackageCache\com.unity.purchasing@4.5.2\Editor\ServiceProjectSettings\Service\Networking\AuthSignatureWebRequests.cs" />
     <Compile Include="Library\PackageCache\com.unity.purchasing@4.5.2\Editor\ServiceProjectSettings\UI\Views\GooglePlayConfigurationSettingsBlock.cs" />
-    <Compile Include="Library\PackageCache\com.unity.purchasing@4.5.2\Editor\ServiceProjectSettings\Presenter\PurchasingDisabledState.cs" />
-    <Compile Include="Library\PackageCache\com.unity.purchasing@4.5.2\Editor\Analytics\Entity\EventComponents.cs" />
-    <Compile Include="Library\PackageCache\com.unity.purchasing@4.5.2\Editor\Obfuscation\Service\ObfuscationMigration.cs" />
-    <Compile Include="Library\PackageCache\com.unity.purchasing@4.5.2\Editor\Analytics\PackageKey\IAnalyticsPackageKeyHolder.cs" />
-    <Compile Include="Library\PackageCache\com.unity.purchasing@4.5.2\Editor\Analytics\Helpers\GameServices\GameServicesEventSenderHelpers.cs" />
     <Compile Include="Library\PackageCache\com.unity.purchasing@4.5.2\Editor\ServiceProjectSettings\PurchasingServiceIdentifier.cs" />
-    <Compile Include="Library\PackageCache\com.unity.purchasing@4.5.2\Editor\AppleXMLProductCatalogExporter.cs" />
-    <Compile Include="Library\PackageCache\com.unity.purchasing@4.5.2\Editor\Common\Entity\IapMenuConsts.cs" />
     <Compile Include="Library\PackageCache\com.unity.purchasing@4.5.2\Editor\Analytics\Signatures\SignatureDefinitions.cs" />
-    <Compile Include="Library\PackageCache\com.unity.purchasing@4.5.2\Editor\ServiceProjectSettings\UI\Views\IPurchasingSettingsUIBlock.cs" />
+    <Compile Include="Library\PackageCache\com.unity.purchasing@4.5.2\Editor\AppleXMLProductCatalogExporter.cs" />
     <Compile Include="Library\PackageCache\com.unity.purchasing@4.5.2\Editor\Obfuscation\Service\ObfuscationGenerator.cs" />
     <Compile Include="Library\PackageCache\com.unity.purchasing@4.5.2\Editor\Analytics\Events\GenericEditorClickButtonEvent.cs" />
     <Compile Include="Library\PackageCache\com.unity.purchasing@4.5.2\Editor\Common\Entity\PurchasingIdentifierKey.cs" />
@@ -134,20 +97,57 @@
     <Compile Include="Library\PackageCache\com.unity.purchasing@4.5.2\Editor\WinRTPatcher.cs" />
     <Compile Include="Library\PackageCache\com.unity.purchasing@4.5.2\Editor\SwitchStoreEditorWindow.cs" />
     <Compile Include="Library\PackageCache\com.unity.purchasing@4.5.2\Editor\AppleCapabilities.cs" />
-    <Compile Include="Library\PackageCache\com.unity.purchasing@4.5.2\Editor\ServiceProjectSettings\UI\Views\ImageHelper.cs" />
     <Compile Include="Library\PackageCache\com.unity.purchasing@4.5.2\Editor\Analytics\Signatures\EditorAnalyticsDataSignature.cs" />
-    <Compile Include="Library\PackageCache\com.unity.purchasing@4.5.2\Editor\ServiceProjectSettings\SimpleStateMachine.cs" />
-    <Compile Include="Library\PackageCache\com.unity.purchasing@4.5.2\Editor\ServiceProjectSettings\Entity\PurchasingServiceToggleEvent.cs" />
     <Compile Include="Library\PackageCache\com.unity.purchasing@4.5.2\Editor\ServiceProjectSettings\PurchasingGameService.cs" />
     <Compile Include="Library\PackageCache\com.unity.purchasing@4.5.2\Editor\WebRequest\Interface\IWebRequest.cs" />
-    <Compile Include="Library\PackageCache\com.unity.purchasing@4.5.2\Editor\Obfuscation\Service\TangleObfuscator.cs" />
     <Compile Include="Library\PackageCache\com.unity.purchasing@4.5.2\Editor\UdpInstaller.cs" />
     <Compile Include="Library\PackageCache\com.unity.purchasing@4.5.2\Editor\BuildTargetGroupExtensions.cs" />
+    <Compile Include="Library\PackageCache\com.unity.purchasing@4.5.2\Editor\Analytics\PurchasingServiceAnalyticsRegistrar.cs" />
+    <Compile Include="Library\PackageCache\com.unity.purchasing@4.5.2\Editor\Analytics\Events\GenericEditorEditFieldEvent.cs" />
+    <Compile Include="Library\PackageCache\com.unity.purchasing@4.5.2\Editor\ServiceProjectSettings\UI\Views\IMGUIContainerPopupAdapter.cs" />
+    <Compile Include="Library\PackageCache\com.unity.purchasing@4.5.2\Editor\ServiceProjectSettings\UI\Views\PlatformsAndStoresDisabledServiceSettingsBlock.cs" />
+    <Compile Include="Library\PackageCache\com.unity.purchasing@4.5.2\Editor\Importer.cs" />
+    <Compile Include="Library\PackageCache\com.unity.purchasing@4.5.2\Editor\ServiceProjectSettings\Entity\Consts\PurchasingUrls.cs" />
+    <Compile Include="Library\PackageCache\com.unity.purchasing@4.5.2\Editor\WebRequest\CloudProjectWebRequest.cs" />
+    <Compile Include="Library\PackageCache\com.unity.purchasing@4.5.2\Editor\Analytics\Helpers\GenericEditorFieldEditEventSenderHelpers.cs" />
+    <Compile Include="Library\PackageCache\com.unity.purchasing@4.5.2\Editor\ServiceProjectSettings\PurchasingServiceEnabler.cs" />
+    <Compile Include="Library\PackageCache\com.unity.purchasing@4.5.2\Editor\Analytics\PackageKey\GameServicesAnalyticsPackageKeyHolder.cs" />
+    <Compile Include="Library\PackageCache\com.unity.purchasing@4.5.2\Editor\MenuItems\IapListenerMenu.cs" />
+    <Compile Include="Library\PackageCache\com.unity.purchasing@4.5.2\Editor\Analytics\Events\IEditorAnalyticsEvent.cs" />
+    <Compile Include="Library\PackageCache\com.unity.purchasing@4.5.2\Editor\ServiceProjectSettings\PurchasingSettingsKeywords.cs" />
+    <Compile Include="Library\PackageCache\com.unity.purchasing@4.5.2\Editor\Analytics\Entity\EventSources.cs" />
+    <Compile Include="Library\PackageCache\com.unity.purchasing@4.5.2\Editor\Analytics\Events\GenericEditorGameServiceEvent.cs" />
+    <Compile Include="Library\PackageCache\com.unity.purchasing@4.5.2\Editor\ServiceProjectSettings\Service\Networking\GoogleConfigurationWebRequests.cs" />
+    <Compile Include="Library\PackageCache\com.unity.purchasing@4.5.2\Editor\ProductCatalogEditor.cs" />
+    <Compile Include="Library\PackageCache\com.unity.purchasing@4.5.2\Editor\ServiceProjectSettings\Service\Networking\UnityWebRequestExtensions.cs" />
+    <Compile Include="Library\PackageCache\com.unity.purchasing@4.5.2\Editor\Obfuscation\UI\ObfuscatorWindow.cs" />
+    <Compile Include="Library\PackageCache\com.unity.purchasing@4.5.2\Editor\RichEditorWindow.cs" />
+    <Compile Include="Library\PackageCache\com.unity.purchasing@4.5.2\Editor\Analytics\Entity\EventSourceMenuItems.cs" />
+    <Compile Include="Library\PackageCache\com.unity.purchasing@4.5.2\Editor\ServiceProjectSettings\UI\Views\AppleConfigurationSettingsBlock.cs" />
+    <Compile Include="Library\PackageCache\com.unity.purchasing@4.5.2\Editor\Analytics\Helpers\GenericEditorButtonClickEventSenderHelpers.cs" />
+    <Compile Include="Library\PackageCache\com.unity.purchasing@4.5.2\Editor\WebRequest\Interface\IWebRequestInternal.cs" />
+    <Compile Include="Library\PackageCache\com.unity.purchasing@4.5.2\Editor\UnityPurchasingEditor.cs" />
+    <Compile Include="Library\PackageCache\com.unity.purchasing@4.5.2\Editor\Analytics\PurchasingServiceAnalyticsSender.cs" />
+    <Compile Include="Library\PackageCache\com.unity.purchasing@4.5.2\Editor\ServiceProjectSettings\UI\Views\PlatformsAndStoresEnabledServiceSettingsBlock.cs" />
+    <Compile Include="Library\PackageCache\com.unity.purchasing@4.5.2\Editor\Analytics\Entity\GameServices\GameServicesEventActions.cs" />
+    <Compile Include="Library\PackageCache\com.unity.purchasing@4.5.2\Editor\ServiceProjectSettings\Entity\Consts\SettingsUIConstants.cs" />
+    <Compile Include="Library\PackageCache\com.unity.purchasing@4.5.2\Editor\ServiceProjectSettings\UI\Views\Obfuscator\AppleObfuscatorSection.cs" />
+    <Compile Include="Library\PackageCache\com.unity.purchasing@4.5.2\Editor\IAPButtonEditor.cs" />
+    <Compile Include="Library\PackageCache\com.unity.purchasing@4.5.2\Editor\ServiceProjectSettings\Presenter\PurchasingDisabledState.cs" />
+    <Compile Include="Library\PackageCache\com.unity.purchasing@4.5.2\Editor\Analytics\Entity\EventComponents.cs" />
+    <Compile Include="Library\PackageCache\com.unity.purchasing@4.5.2\Editor\Obfuscation\Service\ObfuscationMigration.cs" />
+    <Compile Include="Library\PackageCache\com.unity.purchasing@4.5.2\Editor\Analytics\PackageKey\IAnalyticsPackageKeyHolder.cs" />
+    <Compile Include="Library\PackageCache\com.unity.purchasing@4.5.2\Editor\Analytics\Helpers\GameServices\GameServicesEventSenderHelpers.cs" />
+    <Compile Include="Library\PackageCache\com.unity.purchasing@4.5.2\Editor\Common\Entity\IapMenuConsts.cs" />
+    <Compile Include="Library\PackageCache\com.unity.purchasing@4.5.2\Editor\ServiceProjectSettings\UI\Views\IPurchasingSettingsUIBlock.cs" />
+    <Compile Include="Library\PackageCache\com.unity.purchasing@4.5.2\Editor\ServiceProjectSettings\UI\Views\ImageHelper.cs" />
+    <Compile Include="Library\PackageCache\com.unity.purchasing@4.5.2\Editor\ServiceProjectSettings\SimpleStateMachine.cs" />
+    <Compile Include="Library\PackageCache\com.unity.purchasing@4.5.2\Editor\ServiceProjectSettings\Entity\PurchasingServiceToggleEvent.cs" />
+    <Compile Include="Library\PackageCache\com.unity.purchasing@4.5.2\Editor\Obfuscation\Service\TangleObfuscator.cs" />
     <Compile Include="Library\PackageCache\com.unity.purchasing@4.5.2\Editor\ServiceProjectSettings\UI\Views\Obfuscator\GoogleObfuscatorSection.cs" />
     <Compile Include="Library\PackageCache\com.unity.purchasing@4.5.2\Editor\BuildPreprocessor.cs" />
     <Compile Include="Library\PackageCache\com.unity.purchasing@4.5.2\Editor\ServiceProjectSettings\UI\Views\PlatformsAndStoresServiceSettingsBlock.cs" />
     <Compile Include="Library\PackageCache\com.unity.purchasing@4.5.2\Editor\Analytics\Helpers\GenericEditorMenuItemClickEventSenderHelpers.cs" />
-    <Compile Include="Library\PackageCache\com.unity.purchasing@4.5.2\Editor\Analytics\PurchasingServiceAnalyticsRegistrar.cs" />
     <Compile Include="Library\PackageCache\com.unity.purchasing@4.5.2\Editor\MenuItems\IapButtonMenu.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -420,11 +420,20 @@
     <Reference Include="UnityEditor.Graphs">
       <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.19f1\Editor\Data\Managed\UnityEditor.Graphs.dll</HintPath>
     </Reference>
+    <Reference Include="UnityEditor.Android.Extensions">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.19f1\Editor\Data\PlaybackEngines\AndroidPlayer\UnityEditor.Android.Extensions.dll</HintPath>
+    </Reference>
     <Reference Include="UnityEditor.WindowsStandalone.Extensions">
       <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.19f1\Editor\Data\PlaybackEngines\WindowsStandaloneSupport\UnityEditor.WindowsStandalone.Extensions.dll</HintPath>
     </Reference>
     <Reference Include="nunit.framework">
       <HintPath>Library\PackageCache\com.unity.ext.nunit@1.0.6\net35\unity-custom\nunit.framework.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Android.Types">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.19f1\Editor\Data\PlaybackEngines\AndroidPlayer\Unity.Android.Types.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Android.Gradle">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.19f1\Editor\Data\PlaybackEngines\AndroidPlayer\Unity.Android.Gradle.dll</HintPath>
     </Reference>
     <Reference Include="mscorlib">
       <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.19f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\mscorlib.dll</HintPath>
@@ -839,13 +848,13 @@
       <Project>{FB164A50-04AC-84EE-029A-AEADE895269B}</Project>
       <Name>UnityEngine.UI</Name>
     </ProjectReference>
-    <ProjectReference Include="UnityEngine.TestRunner.csproj">
-      <Project>{EBA652ED-A6AF-9719-9592-5E1423F13516}</Project>
-      <Name>UnityEngine.TestRunner</Name>
-    </ProjectReference>
     <ProjectReference Include="UnityEditor.TestRunner.csproj">
       <Project>{F9DA6854-26F5-6ABB-8580-FECD1E37D040}</Project>
       <Name>UnityEditor.TestRunner</Name>
+    </ProjectReference>
+    <ProjectReference Include="UnityEngine.TestRunner.csproj">
+      <Project>{EBA652ED-A6AF-9719-9592-5E1423F13516}</Project>
+      <Name>UnityEngine.TestRunner</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

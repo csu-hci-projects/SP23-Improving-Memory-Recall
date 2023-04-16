@@ -22,7 +22,7 @@
     <DebugType>full</DebugType>
     <Optimize>false</Optimize>
     <OutputPath>Temp\Bin\Debug\Player\</OutputPath>
-    <DefineConstants>UNITY_2021_3_19;UNITY_2021_3;UNITY_2021;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_2017_1_OR_NEWER;UNITY_2017_2_OR_NEWER;UNITY_2017_3_OR_NEWER;UNITY_2017_4_OR_NEWER;UNITY_2018_1_OR_NEWER;UNITY_2018_2_OR_NEWER;UNITY_2018_3_OR_NEWER;UNITY_2018_4_OR_NEWER;UNITY_2019_1_OR_NEWER;UNITY_2019_2_OR_NEWER;UNITY_2019_3_OR_NEWER;UNITY_2019_4_OR_NEWER;UNITY_2020_1_OR_NEWER;UNITY_2020_2_OR_NEWER;UNITY_2020_3_OR_NEWER;UNITY_2021_1_OR_NEWER;UNITY_2021_2_OR_NEWER;UNITY_2021_3_OR_NEWER;PLATFORM_ARCH_64;UNITY_64;UNITY_INCLUDE_TESTS;ENABLE_AR;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_EVENT_QUEUE;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_TEXTURE_STREAMING;ENABLE_VIRTUALTEXTURING;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_VR;ENABLE_WEBCAM;ENABLE_UNITYWEBREQUEST;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_COLLAB_SOFTLOCKS;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_SERVICES_USE_WEBREQUEST;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_HUB_LICENSE;ENABLE_WEBSOCKET_CLIENT;ENABLE_DIRECTOR_AUDIO;ENABLE_DIRECTOR_TEXTURE;ENABLE_MANAGED_JOBS;ENABLE_MANAGED_TRANSFORM_JOBS;ENABLE_MANAGED_ANIMATION_JOBS;ENABLE_MANAGED_AUDIO_JOBS;ENABLE_MANAGED_UNITYTLS;INCLUDE_DYNAMIC_GI;ENABLE_SCRIPTING_GC_WBARRIERS;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;ENABLE_VIDEO;ENABLE_ACCELERATOR_CLIENT_DEBUGGING;PLATFORM_STANDALONE;TEXTCORE_1_0_OR_NEWER;PLATFORM_STANDALONE_WIN;UNITY_STANDALONE_WIN;UNITY_STANDALONE;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_NVIDIA;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_UNITY_GAME_SERVICES_ANALYTICS_SUPPORT;ENABLE_OUT_OF_PROCESS_CRASH_HANDLER;ENABLE_CLUSTER_SYNC;ENABLE_CLUSTERINPUT;PLATFORM_UPDATES_TIME_OUTSIDE_OF_PLAYER_LOOP;GFXDEVICE_WAITFOREVENT_MESSAGEPUMP;ENABLE_WEBSOCKET_HOST;ENABLE_MONO;NET_STANDARD_2_0;NET_STANDARD;NET_STANDARD_2_1;NETSTANDARD;NETSTANDARD2_1;ENABLE_CUSTOM_RENDER_TEXTURE;ENABLE_DIRECTOR;ENABLE_LOCALIZATION;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_TILEMAP;ENABLE_TIMELINE;ENABLE_LEGACY_INPUT_MANAGER;TEXTCORE_FONT_ENGINE_1_5_OR_NEWER;CSHARP_7_OR_LATER;CSHARP_7_3_OR_NEWER</DefineConstants>
+    <DefineConstants>UNITY_2021_3_19;UNITY_2021_3;UNITY_2021;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_2017_1_OR_NEWER;UNITY_2017_2_OR_NEWER;UNITY_2017_3_OR_NEWER;UNITY_2017_4_OR_NEWER;UNITY_2018_1_OR_NEWER;UNITY_2018_2_OR_NEWER;UNITY_2018_3_OR_NEWER;UNITY_2018_4_OR_NEWER;UNITY_2019_1_OR_NEWER;UNITY_2019_2_OR_NEWER;UNITY_2019_3_OR_NEWER;UNITY_2019_4_OR_NEWER;UNITY_2020_1_OR_NEWER;UNITY_2020_2_OR_NEWER;UNITY_2020_3_OR_NEWER;UNITY_2021_1_OR_NEWER;UNITY_2021_2_OR_NEWER;UNITY_2021_3_OR_NEWER;PLATFORM_ARCH_64;UNITY_64;UNITY_INCLUDE_TESTS;ENABLE_AR;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_EVENT_QUEUE;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_TEXTURE_STREAMING;ENABLE_VIRTUALTEXTURING;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_VR;ENABLE_WEBCAM;ENABLE_UNITYWEBREQUEST;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_COLLAB_SOFTLOCKS;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_SERVICES_USE_WEBREQUEST;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_HUB_LICENSE;ENABLE_WEBSOCKET_CLIENT;ENABLE_DIRECTOR_AUDIO;ENABLE_DIRECTOR_TEXTURE;ENABLE_MANAGED_JOBS;ENABLE_MANAGED_TRANSFORM_JOBS;ENABLE_MANAGED_ANIMATION_JOBS;ENABLE_MANAGED_AUDIO_JOBS;ENABLE_MANAGED_UNITYTLS;INCLUDE_DYNAMIC_GI;ENABLE_SCRIPTING_GC_WBARRIERS;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;ENABLE_VIDEO;ENABLE_ACCELERATOR_CLIENT_DEBUGGING;PLATFORM_STANDALONE;TEXTCORE_1_0_OR_NEWER;PLATFORM_STANDALONE_WIN;UNITY_STANDALONE_WIN;UNITY_STANDALONE;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_NVIDIA;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_UNITY_GAME_SERVICES_ANALYTICS_SUPPORT;ENABLE_OUT_OF_PROCESS_CRASH_HANDLER;ENABLE_CLUSTER_SYNC;ENABLE_CLUSTERINPUT;PLATFORM_UPDATES_TIME_OUTSIDE_OF_PLAYER_LOOP;GFXDEVICE_WAITFOREVENT_MESSAGEPUMP;ENABLE_WEBSOCKET_HOST;ENABLE_MONO;NET_STANDARD_2_0;NET_STANDARD;NET_STANDARD_2_1;NETSTANDARD;NETSTANDARD2_1;ENABLE_CUSTOM_RENDER_TEXTURE;ENABLE_DIRECTOR;ENABLE_LOCALIZATION;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_TILEMAP;ENABLE_TIMELINE;ENABLE_INPUT_SYSTEM;ENABLE_LEGACY_INPUT_MANAGER;TEXTCORE_FONT_ENGINE_1_5_OR_NEWER;CSHARP_7_OR_LATER;CSHARP_7_3_OR_NEWER</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
     <NoWarn>0169</NoWarn>
@@ -56,42 +56,42 @@
     <Analyzer Include="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Library\PackageCache\com.unity.ads@3.7.5\Runtime\Monetization\IosNativePromoAdapter.cs" />
     <Compile Include="Library\PackageCache\com.unity.ads@3.7.5\Runtime\Monetization\IosAnalytics.cs" />
-    <Compile Include="Library\PackageCache\com.unity.ads@3.7.5\Runtime\Monetization\MetaData.cs" />
-    <Compile Include="Library\PackageCache\com.unity.ads@3.7.5\Runtime\Monetization\EditorPlacementContentOperations.cs" />
-    <Compile Include="Library\PackageCache\com.unity.ads@3.7.5\Runtime\Monetization\UnityServicesErrorEventArgs.cs" />
     <Compile Include="Library\PackageCache\com.unity.ads@3.7.5\Runtime\Monetization\MonetizationPlatform.cs" />
-    <Compile Include="Library\PackageCache\com.unity.ads@3.7.5\Runtime\Monetization\Product.cs" />
     <Compile Include="Library\PackageCache\com.unity.ads@3.7.5\Runtime\Monetization\AndroidAnalytics.cs" />
     <Compile Include="Library\PackageCache\com.unity.ads@3.7.5\Runtime\Monetization\AndroidNativePromoAdapter.cs" />
-    <Compile Include="Library\PackageCache\com.unity.ads@3.7.5\Runtime\Monetization\Placeholder.cs" />
-    <Compile Include="Library\PackageCache\com.unity.ads@3.7.5\Runtime\Monetization\PlacementContentState.cs" />
-    <Compile Include="Library\PackageCache\com.unity.ads@3.7.5\Runtime\Monetization\JavaMapUtilities.cs" />
     <Compile Include="Library\PackageCache\com.unity.ads@3.7.5\Runtime\Monetization\MiniJSON.cs" />
     <Compile Include="Library\PackageCache\com.unity.ads@3.7.5\Runtime\Monetization\PlacementContentType.cs" />
-    <Compile Include="Library\PackageCache\com.unity.ads@3.7.5\Runtime\Monetization\PromoMetadata.cs" />
-    <Compile Include="Library\PackageCache\com.unity.ads@3.7.5\Runtime\Monetization\UnsupportedPlatform.cs" />
     <Compile Include="Library\PackageCache\com.unity.ads@3.7.5\Runtime\Monetization\AssemblyInfo.cs" />
     <Compile Include="Library\PackageCache\com.unity.ads@3.7.5\Runtime\Monetization\EditorNativePromoAdapter.cs" />
-    <Compile Include="Library\PackageCache\com.unity.ads@3.7.5\Runtime\Monetization\IosPlacementContentOperations.cs" />
     <Compile Include="Library\PackageCache\com.unity.ads@3.7.5\Runtime\Monetization\PurchasingAdapterCallbacks.cs" />
     <Compile Include="Library\PackageCache\com.unity.ads@3.7.5\Runtime\Monetization\Analytics.cs" />
     <Compile Include="Library\PackageCache\com.unity.ads@3.7.5\Runtime\Monetization\Configuration.cs" />
-    <Compile Include="Library\PackageCache\com.unity.ads@3.7.5\Runtime\Monetization\TransactionError.cs" />
     <Compile Include="Library\PackageCache\com.unity.ads@3.7.5\Runtime\Monetization\INativePromoAdapter.cs" />
     <Compile Include="Library\PackageCache\com.unity.ads@3.7.5\Runtime\Monetization\PlacementContentReadyEventArgs.cs" />
+    <Compile Include="Library\PackageCache\com.unity.ads@3.7.5\Runtime\Monetization\Creator.cs" />
+    <Compile Include="Library\PackageCache\com.unity.ads@3.7.5\Runtime\Monetization\Store.cs" />
+    <Compile Include="Library\PackageCache\com.unity.ads@3.7.5\Runtime\Monetization\IPlacementContentOperations.cs" />
+    <Compile Include="Library\PackageCache\com.unity.ads@3.7.5\Runtime\Monetization\PlacementContentStateChangeEventArgs.cs" />
+    <Compile Include="Library\PackageCache\com.unity.ads@3.7.5\Runtime\Monetization\JavaEnumUtilities.cs" />
+    <Compile Include="Library\PackageCache\com.unity.ads@3.7.5\Runtime\Monetization\IosNativePromoAdapter.cs" />
+    <Compile Include="Library\PackageCache\com.unity.ads@3.7.5\Runtime\Monetization\MetaData.cs" />
+    <Compile Include="Library\PackageCache\com.unity.ads@3.7.5\Runtime\Monetization\EditorPlacementContentOperations.cs" />
+    <Compile Include="Library\PackageCache\com.unity.ads@3.7.5\Runtime\Monetization\UnityServicesErrorEventArgs.cs" />
+    <Compile Include="Library\PackageCache\com.unity.ads@3.7.5\Runtime\Monetization\Product.cs" />
+    <Compile Include="Library\PackageCache\com.unity.ads@3.7.5\Runtime\Monetization\Placeholder.cs" />
+    <Compile Include="Library\PackageCache\com.unity.ads@3.7.5\Runtime\Monetization\PlacementContentState.cs" />
+    <Compile Include="Library\PackageCache\com.unity.ads@3.7.5\Runtime\Monetization\JavaMapUtilities.cs" />
+    <Compile Include="Library\PackageCache\com.unity.ads@3.7.5\Runtime\Monetization\PromoMetadata.cs" />
+    <Compile Include="Library\PackageCache\com.unity.ads@3.7.5\Runtime\Monetization\UnsupportedPlatform.cs" />
+    <Compile Include="Library\PackageCache\com.unity.ads@3.7.5\Runtime\Monetization\IosPlacementContentOperations.cs" />
+    <Compile Include="Library\PackageCache\com.unity.ads@3.7.5\Runtime\Monetization\TransactionError.cs" />
     <Compile Include="Library\PackageCache\com.unity.ads@3.7.5\Runtime\Monetization\AndroidPlacementContentOperations.cs" />
     <Compile Include="Library\PackageCache\com.unity.ads@3.7.5\Runtime\Monetization\IPurchasingAdapter.cs" />
     <Compile Include="Library\PackageCache\com.unity.ads@3.7.5\Runtime\Monetization\PlacementContent.cs" />
     <Compile Include="Library\PackageCache\com.unity.ads@3.7.5\Runtime\Monetization\IMonetizationPlatform.cs" />
-    <Compile Include="Library\PackageCache\com.unity.ads@3.7.5\Runtime\Monetization\Creator.cs" />
     <Compile Include="Library\PackageCache\com.unity.ads@3.7.5\Runtime\Monetization\AndroidJavaObjectExtensions.cs" />
-    <Compile Include="Library\PackageCache\com.unity.ads@3.7.5\Runtime\Monetization\Store.cs" />
-    <Compile Include="Library\PackageCache\com.unity.ads@3.7.5\Runtime\Monetization\IPlacementContentOperations.cs" />
-    <Compile Include="Library\PackageCache\com.unity.ads@3.7.5\Runtime\Monetization\PlacementContentStateChangeEventArgs.cs" />
     <Compile Include="Library\PackageCache\com.unity.ads@3.7.5\Runtime\Monetization\Monetization.cs" />
-    <Compile Include="Library\PackageCache\com.unity.ads@3.7.5\Runtime\Monetization\JavaEnumUtilities.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Library\PackageCache\com.unity.ads@3.7.5\Runtime\Monetization\UnityEngine.Monetization.asmdef" />
@@ -298,11 +298,11 @@
     <Reference Include="UnityEngine.XRModule">
       <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.19f1\Editor\Data\PlaybackEngines\WindowsStandaloneSupport\Variations\mono\Managed\UnityEngine.XRModule.dll</HintPath>
     </Reference>
-    <Reference Include="Newtonsoft.Json">
-      <HintPath>Library\PackageCache\com.unity.nuget.newtonsoft-json@3.0.2\Runtime\AOT\Newtonsoft.Json.dll</HintPath>
-    </Reference>
     <Reference Include="Unity.VisualScripting.Antlr3.Runtime">
       <HintPath>Library\PackageCache\com.unity.visualscripting@1.8.0\Runtime\VisualScripting.Flow\Dependencies\NCalc\Unity.VisualScripting.Antlr3.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>Library\PackageCache\com.unity.nuget.newtonsoft-json@3.0.2\Runtime\AOT\Newtonsoft.Json.dll</HintPath>
     </Reference>
     <Reference Include="netstandard">
       <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.19f1\Editor\Data\NetStandard\ref\2.1.0\netstandard.dll</HintPath>
