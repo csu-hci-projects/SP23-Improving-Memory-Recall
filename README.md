@@ -41,7 +41,7 @@ At least once a week, if not twice, we held group meetings. This usually occurre
 
 ## Contributions
 
-NOTE: Everyone in this group contributed towards research of this project.
+NOTE: Everyone in this group contributed towards research of this project. Many sections of the paper were written and rewritten during this checkpoint all members contributed to the essay produced up until this point.
 
 ### Zachary Fuller
 - Testing scene.
