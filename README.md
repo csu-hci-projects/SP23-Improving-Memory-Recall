@@ -44,6 +44,17 @@ At least once a week, if not twice, we held group meetings. This usually occurre
 NOTE: Everyone in this group contributed towards research of this project.
 
 ### Zachary Fuller
+- Implementation and Design for:
+  - Testing scene.
+  - Mixed settings algorithim.
+  - Proper run sequence of prototype.
+  - Implementation of settings onto flashcards:
+    -Mixed Settings.
+    -Optimal Settings.
+  - Retention set testing.
+- Results scene creation.
+- Additional functionality to properly load new options.
+- Nontrivial updates to prototype design to incorperate previous expansions.
 
 ### Jake Ritz
 
