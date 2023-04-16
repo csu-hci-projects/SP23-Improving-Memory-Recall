@@ -47,7 +47,7 @@ NOTE: Everyone in this group contributed towards research of this project.
 
 ### Jake Ritz
 
-Jake took charge of the team's research paper. He managed all the citations, ensuring proper referencing and formatting were adhered to. Jake also helped fix the issues regarding the Related Works section, aligning it with the research objectives, and collaborated with Zach to create the Procedure section. He also helped with bug fixes, provided ideas when needed, and worked with the testing UI.
+Jake took charge of the team's research paper. He managed all the citations, ensuring proper referencing and formatting were adhered to. Jake also helped fix the issues regarding the Related Works section, aligning it with the research objectives, and collaborated with Zach to create the Procedure section. He also helped with bug fixes, provided ideas when needed, and worked with the testing UI. He's also in the beginning stages of ideating how the experiment will be conducted. 
 
 ### Hunter Hoden
 
