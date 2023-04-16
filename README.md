@@ -88,6 +88,8 @@ Jake worked on the team's research paper. He managed all the citations, ensuring
 
 ## Video Link 
 
+https://youtu.be/7M_qrd-4Myk
+
 ## Overleaf Link 
 
 https://www.overleaf.com/read/fhfwzfvydjhy
