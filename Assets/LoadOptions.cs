@@ -35,7 +35,13 @@ public class LoadOptions : MonoBehaviour
     void Start()
     {
         if(textcontrol.index==0){
-        optimalFont=text.font;
+            optimalFont=text.font;
+            setTextColor();
+            setTextFont();
+            setTextStyle();
+            setTextSize();
+            setBackgroundColor();
+            setMusicType();
         }
         if (optimalSettings)
         {

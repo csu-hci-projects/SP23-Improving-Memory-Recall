@@ -13,9 +13,8 @@ public class invisScript : MonoBehaviour
         gameObject.SetActive(false);
 
     }
-   public void readString()
+   public void readString(string text)
     {
-        string text = IF.text;
         for (int i = 0; i < text.Length;i++)
         {
             intarr[i] = (int) text[i]-48;
