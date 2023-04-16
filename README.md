@@ -57,8 +57,13 @@ NOTE: Everyone in this group contributed towards research of this project. Many 
 - Nontrivial updates to prototype design to incorperate previously overlooked features.
 
 ### Jake Ritz
-
-Jake worked on the team's research paper. He managed all the citations, ensuring proper referencing and formatting were adhered to. Jake also helped fix the issues regarding the Related Works section, aligning it with the research objectives, and collaborated with Zach to create the Procedure section. He also helped with bug fixes, provided ideas when needed, and worked with the testing UI. He's also in the beginning stages of ideating how the experiment will be conducted. 
+- Assisted with bug fixes and provided ideas when needed
+- Flashcard scene UI Update
+  - Background scene
+  - Matched Font Size with Menu Scene
+  - Matched Font color with Menu Scene
+- Assisted Jay with schema/skeleton for timer functionality on flashcard scenes
+- Ideating the beginning stages of the experiment's conduction.
 
 ### Hunter Hoden
 - Added functionality to the following parts of the prototype:
