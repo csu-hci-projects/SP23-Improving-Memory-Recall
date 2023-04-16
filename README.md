@@ -55,6 +55,7 @@ NOTE: Everyone in this group contributed towards research of this project. Many 
 - Results scene creation.
 - Additional functionality to properly load new options.
 - Nontrivial updates to prototype design to incorperate previously overlooked features.
+- Percentage of work: 31.515%
 
 ### Jake Ritz
 - Assisted with bug fixes and provided ideas when needed
@@ -64,6 +65,7 @@ NOTE: Everyone in this group contributed towards research of this project. Many 
   - Matched Font color with Menu Scene
 - Assisted Jay with schema/skeleton for timer functionality on flashcard scenes
 - Ideating the beginning stages of the experiment's conduction.
+- Percentage of work: 10.845%
 
 ### Hunter Hoden
 - Added functionality to the following parts of the prototype:
@@ -77,6 +79,7 @@ NOTE: Everyone in this group contributed towards research of this project. Many 
   - Cameras.
 - A vast array of bugfixes due to VR port.
 - Assisted in implementing the base code for loading and setting user options.
+- Percentage of work: 31.515%
 
 ### Jay Snellings
 
@@ -90,6 +93,7 @@ NOTE: Everyone in this group contributed towards research of this project. Many 
   - Timed flip implementation.
 - Cleaned UX/UI of the prototype.
 - Implementation of results screen.
+- Percentage of work: 26.125%
 
 ## Video Link 
 
