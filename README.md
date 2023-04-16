@@ -49,8 +49,8 @@ NOTE: Everyone in this group contributed towards research of this project.
   - Mixed settings algorithim.
   - Proper run sequence of prototype.
   - Implementation of settings onto flashcards:
-    -Mixed Settings.
-    -Optimal Settings.
+   - Mixed Settings.
+   - Optimal Settings.
   - Retention set testing.
 - Results scene creation.
 - Additional functionality to properly load new options.
