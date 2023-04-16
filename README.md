@@ -64,11 +64,16 @@ Jake worked on the team's research paper. He managed all the citations, ensuring
 
 ### Jay Snellings
 
-- Created menus for the prototype including main menu, options menu, and other misc menus within.
-- Wrote scripts to add functionality to buttons in the prototype.
-- Added flashcard functionality which works on a timer then switches to the test scene.
+- Created menus for the prototype.
+  - Main menu. 
+  - Options menu. 
+  - Accompanying edits to functionality.
+- Various button implementations. 
+- Flashcard scene.
+  - Basic functionality.
+  - Timed flip implementation.
 - Cleaned UX/UI of the prototype.
-- Bug fixes: Helped Zach get the results screen to appear at the right time.
+- Implementation of results screen.
 
 ## Video Link 
 
