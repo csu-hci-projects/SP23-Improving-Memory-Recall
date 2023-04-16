@@ -47,11 +47,17 @@ NOTE: Everyone in this group contributed towards research of this project.
 
 ### Jake Ritz
 
-Jake took charge of the team's research paper. He managed all the citations, ensuring proper referencing and formatting were adhered to. Jake also helped fix the issues regarding the Related Works section, aligning it with the research objectives, and collaborated with Zach to create the Procedure section. He also helped with bug fixes, provided ideas when needed, and worked with the testing UI. He's also in the beginning stages of ideating how the experiment will be conducted. 
+Jake worked on the team's research paper. He managed all the citations, ensuring proper referencing and formatting were adhered to. Jake also helped fix the issues regarding the Related Works section, aligning it with the research objectives, and collaborated with Zach to create the Procedure section. He also helped with bug fixes, provided ideas when needed, and worked with the testing UI. He's also in the beginning stages of ideating how the experiment will be conducted. 
 
 ### Hunter Hoden
 
 ### Jay Snellings
+
+- Created menus for the prototype including main menu, options menu, and other misc menus within.
+- Wrote scripts to add functionality to buttons in the prototype.
+- Added flashcard functionality which works on a timer then switches to the test scene.
+- Cleaned UX/UI of the prototype.
+- Bug fixes: Helped Zach get the results screen to appear at the right time.
 
 ## Video Link 
 
