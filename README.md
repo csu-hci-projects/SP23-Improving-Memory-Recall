@@ -102,3 +102,8 @@ https://youtu.be/7M_qrd-4Myk
 ## Overleaf Link 
 
 https://www.overleaf.com/read/fhfwzfvydjhy
+
+# Checkpoint 3
+
+### Experiment Data
+[Google Sheets](https://docs.google.com/spreadsheets/d/1zRVQ1qbqmEOCMFQCQ06-PiFig2WZSkR7DKHT1pXUvGs/edit#gid=0)
