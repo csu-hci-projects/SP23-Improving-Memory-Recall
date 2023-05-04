@@ -103,7 +103,16 @@ https://youtu.be/7M_qrd-4Myk
 
 https://www.overleaf.com/read/fhfwzfvydjhy
 
-# Checkpoint 3
+# Final Project Submission
 
 ### Experiment Data
 [Google Sheets](https://docs.google.com/spreadsheets/d/1zRVQ1qbqmEOCMFQCQ06-PiFig2WZSkR7DKHT1pXUvGs/edit#gid=0)
+
+### Videos
+[Project Overview](https://youtu.be/TZl2apR2lRY)
+[PowerPoint](https://youtu.be/cB7ifLGz5rg)
+[Code, Experiment Review](https://youtu.be/YKI-lYdD9KM)
+
+### Final Paper
+[PDF](https://github.com/csu-hci-projects/SP23-Improving-Memory-Recall/files/11402301/Testing_Effects_of_Personalized_Settings_on_Memory_Recall_Through_Flashcard_Retention_Testing.pdf)
+
