@@ -114,5 +114,5 @@ https://www.overleaf.com/read/fhfwzfvydjhy
 [Code, Experiment Review](https://youtu.be/YKI-lYdD9KM)
 
 ### Final Paper
-[PDF](https://github.com/csu-hci-projects/SP23-Improving-Memory-Recall/files/11402301/Testing_Effects_of_Personalized_Settings_on_Memory_Recall_Through_Flashcard_Retention_Testing.pdf)
+[PDF DOWNLOAD](https://github.com/csu-hci-projects/SP23-Improving-Memory-Recall/files/11402301/Testing_Effects_of_Personalized_Settings_on_Memory_Recall_Through_Flashcard_Retention_Testing.pdf)
 
